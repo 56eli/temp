@@ -1,0 +1,354 @@
+This is significant. Tanja has given authoritative answers that resolve Q1-Q4 substantially. Let me think carefully about what these mean.
+
+    "Tanja confirmed that it was never intended for OneDrive files to be downloaded onto internal storage." → sync is meant to be cloud→virtual only, files should NOT be resident on internal storage. So the placeholder pattern (physical 0, logical >0) is the INTENDED state, not an accident.
+
+    "Tanja confirmed that OneDrive was intended to be a virtual backup of her most important folders." → The cloud is a backup (her word), containing her most important folders.
+
+    "single uploads or downloads by Tanja are fine and up to her own discretion." → deviations are her choice, no justification needed (consistent with the redundancy-policy framing).
+
+    "Tanja wants to have the OneDrive stuff gone from internal storage, as long as she has peace of mind that it stays in the cloud." → THIS IS THE BIG ONE. This is an owner-stated GOAL/WISH that involves a file action (removing content from internal storage).
+
+Now I need to be very careful here. There's a hard standing constraint:
+
+    Project is a private, read-only personal-storage analysis repo; advisory analysis only. No PR may contain deletion, movement, archival, cloud-change, compression, renaming, or folder-reorganization instructions.
+
+So Tanja WANTS the OneDrive stuff gone from internal storage. But the repo cannot contain instructions to delete/move. This is exactly the tension. But note — the constraint is about what the repo/PRs contain. The owner stating her goal is different from the repo instructing deletion.
+
+Actually, let me re-read the house stance: "If that is what you want, these are the best steps to get there. Do you want a, b or c? Here are my assumptions, here is the data." Serve the owner's goal, don't set it; offer a/b/c where a real choice exists.
+
+So Tanja has stated a goal. Our job is to serve it — which means helping her achieve "OneDrive stuff gone from internal storage, with peace of mind it stays in the cloud." But the repo cannot contain deletion instructions... Hmm. This needs careful handling.
+
+Let me think about what's actually dangerous and important here:
+
+CRITICAL SAFETY ISSUE: "Tanja wants to have the OneDrive stuff gone from internal storage" — if the OneDrive files on internal storage are placeholders (physical size 0), then there is NOTHING to remove — they already occupy no space! Removing a placeholder from local storage is exactly what "Free up space" does, and the content stays in the cloud. But — and this is crucial — we do NOT know that the cloud actually holds this content. We have no cloud inventory. Q1 is UNANSWERED. The guide was just written to answer it and hasn't been run.
+
+So: Tanja wants peace of mind that it stays in the cloud. We cannot give her that peace of mind yet. We have zero evidence about the cloud. docs/cloud-storage-inventory-template.md is still unfilled. The guide (tanja-cloud-pruefung.md) hasn't been run.
+
+This is the key insight: Her goal is conditional on peace of mind, and the peace of mind is exactly what hasn't been established. The order matters enormously: verify the cloud first, THEN consider removing anything from internal storage. Doing it in the other order is exactly the disaster scenario — if the cloud doesn't hold it, and she removes the local copies, the data is gone.
+
+Also there's a second critical issue: the placeholders are ALREADY not-consuming space. 78,076 C: rows = physical 0, logical 346.27 GiB. So "OneDrive stuff gone from internal storage" — for the C: placeholders — is already the case in terms of space. There's nothing to reclaim there. That's an important factual point: the OneDrive content on C: already occupies ZERO bytes. Removing the placeholders frees nothing.
+
+Wait — but there's a subtlety. Removing a placeholder (e.g. deleting the folder from local view) vs. "free up space" — with sync-on-demand, deleting a placeholder locally can propagate the deletion to the cloud (that's exactly the danger the guide warns about). So "getting the OneDrive stuff gone from internal storage" could actually be DANGEROUS if done by deleting rather than by "Free up space" done correctly.
+
+And the OTHER OneDrive thing on internal storage: D:\OneDrive Backup 2026 Februar — 30,447 files, 133.25 GiB logical, 133.31 GiB physical. That one DOES occupy real space (physical ≈ logical). That's a real 133 GiB. That's probably the main thing she means by "OneDrive stuff on internal storage" — it's a local folder taking real space on D:.
+
+So there are TWO distinct things:
+
+    C: placeholders — 346.27 GiB logical, 0 bytes actual space. Removing them frees nothing. And removing them is risky (could propagate).
+    D: OneDrive Backup 2026 Februar — 133.31 GiB physical, real space. This is the candidate for "gone from internal storage."
+
+That distinction is the single most important thing I can tell her. If she thinks she'll free 346 GB by clearing OneDrive from C:, she'll free nothing (nothing is there) — and risk her cloud data. If she wants real space back, the D: tree is the one with actual bytes.
+
+And critically: is the D: tree in the cloud? Unknown. If it's a "backup" copy made locally, and the cloud has it, then removing the D: copy is safe (another copy exists). If the cloud does NOT have it, removing it destroys the only... well, no — the originals might be elsewhere. Actually we don't know what the D: tree is a copy OF. Need to determine: does the D: tree's content exist in the cloud, or inside the C: OneDrive folder, or somewhere else?
+
+Hmm, actually — the C: OneDrive folder contains 177.06 GiB logical (40,973 files), of which 346.27 GiB... no wait. Let me recheck. The 346.27 GiB figure is the total across ALL C: rows with physical 0. The OneDrive folder is 177.06 GiB logical / 0.00 physical. Let me be careful:
+
+    C:\Users\tanja_8jpsq4i\OneDrive 40,973 files / 177.06 GiB logical / 0.00 physical
+    …\OneDrive\Bilder 18,400 / 114.58 / 0.00 (nested inside the above)
+    C:\Windows.old\Users\Tanyeah\OneDrive 40,980 / 177.04 / 7.84
+
+And the 346.27 GiB / 78,076 rows is the total C: placeholder pattern across the whole volume.
+
+So: OneDrive folder on C: = 177.06 GiB logical, 0 physical. D: OneDrive Backup 2026 Februar = 133.25 GiB logical, 133.31 GiB physical.
+
+Is 133.25 GiB a subset of the 177.06 GiB? Plausible but NOT established. Cannot assume.
+
+OK so what should I actually DO here?
+
+The user has given me authoritative answers. My job as orchestrator:
+
+    Record these as owner-confirmed facts (STATUS.md) — these are [Owner-stated] items.
+    Assess what they resolve (Q1-Q4 of the register) and what they do NOT resolve.
+    Identify the danger in the goal and the missing precondition (peace of mind = cloud verification, which hasn't happened).
+    Write the next worker prompt.
+
+But I should be careful about scope. The user just gave me answers. What do they want? Probably: incorporate these into the repo and plan next steps. Given the pattern of this session (I review PRs, write verdicts, write worker prompts), and the last thing I said was "Merging makes this her working document... worth handing her directly," the natural next step is to record these answers and possibly write a worker prompt for updating STATUS/plan with the confirmed answers.
+
+Let me think about whether to ask or just proceed. The instruction says I should lead with plain language and serve her goal. The user gave four statements. I think the right move is:
+
+    Immediately flag the critical safety finding — this is the most important thing. Her goal ("OneDrive stuff gone from internal storage") has a precondition that is not met ("peace of mind it stays in the cloud"), and one half of her goal would free nothing anyway.
+
+    Assess what these answers resolve: Q1 partially (she says it's a backup of her most important folders — that's her INTENT, not proof of current state), Q2 (intended role = backup) ✓, Q4 (sync direction — "never intended to be downloaded" is intent, not the setting's actual state), Q3 (quota — still unknown).
+
+Hmm, important nuance: "Tanja confirmed that OneDrive was intended to be a virtual backup" — this is her intent. What actually IS in the cloud is different. Intent ≠ state. This distinction is crucial and very much in the spirit of the repo (voice.md §5, declaring assumptions, [Owner-stated] vs [Verified fact]).
+
+Also: she says it's a backup of "her most important folders." But we can't know which folders without the inventory. And note — a "virtual backup" where files are sync-on-demand is a SYNCHRONIZED COPY, not a backup in the strict sense. If sync is two-way and something gets deleted locally, it propagates. That's a real fragility. But careful — I must not lecture. The repo stance says never moralise about her working style. But this isn't about her working style; it's a factual property of the arrangement that directly bears on her stated goal ("peace of mind that it stays in the cloud"). If the sync propagates deletions, then "it stays in the cloud" is NOT guaranteed. That's exactly the risk she wants peace of mind about. So raising it serves her goal, not lectures her.
+
+Hmm, but I should be careful about how much I assert. We don't know the sync configuration. Q4 is unanswered — she said it was never INTENDED to download, but whether deletion propagates is a separate setting question. Actually, this is now the single most important unknown for her goal.
+
+Let me reframe the danger precisely:
+
+Her goal: "OneDrive stuff gone from internal storage, with peace of mind it stays in the cloud."
+
+For that peace of mind she needs: (a) The cloud actually holds the content — UNKNOWN. (No quota, no inventory, no folder list.) (b) Removing the local copy doesn't remove the cloud copy. For a sync-on-demand placeholder, "removing from internal storage" should mean "free up space" (which keeps the cloud copy), NOT "delete" (which can propagate). This distinction is THE crux. UNKNOWN which behavior her client has, but it's the standard OneDrive distinction. (c) What "the OneDrive stuff on internal storage" actually IS — two different things at very different sizes and very different space consequences.
+
+Also very important: the C: placeholders already occupy zero bytes. So "getting them gone" frees NOTHING. This is a factual, data-backed point that directly serves her. If her goal is space, the target is the D: tree. If her goal is tidiness (not seeing OneDrive name on internal), then the C: OneDrive folder is what she sees.
+
+Hmm, I need to be careful not to assume her goal is space vs. tidiness. She said "OneDrive stuff gone from internal storage" — could be either. Actually, the constraint says external drive role = long-term storage to free internal space. And cloud = additional backup layer. So space is a theme. But her sentence is about the OneDrive stuff specifically being gone from internal, with cloud peace of mind. I should present both readings and let her choose — that's the house stance (offer a/b/c).
+
+Now, the actionable next step. Given the repo constraint (advisory only, no deletion instructions) — what can we actually produce?
+
+I think the answer is: a verification-before-removal plan — i.e., the thing that establishes the peace of mind. That is: the cloud guide (already written!) needs to be RUN, and then a specific check added: does the cloud hold the same content as the D: tree and the C: OneDrive folder?
+
+Actually — here's the key realization. The cloud guide I just wrote answers exactly (a). It's still unrun. So the immediate next step is: she runs the guide. That's the precedent... and it costs her 10-20 minutes with just a browser.
+
+But now there's a NEW requirement her goal adds: we need to compare the cloud's content against the local OneDrive trees to establish that removing the local copy loses nothing. The guide already asks for the top-level folder list — which is the raw material for exactly that comparison. Good.
+
+So: her answers make the existing guide MORE valuable and MORE urgent, not obsolete. And they add one thing: the guide should probably also ask her to check whether the D: tree's content is visible in the cloud (i.e., whether "OneDrive Backup 2026 Februar" appears in the cloud). Hmm, but the guide already asks for the top-level folder list, which would reveal that.
+
+Also — a very important new consideration: "peace of mind" might be satisfiable by something better than a spot check. The repo's central identity rule is SHA-256. But we cannot hash the cloud without downloading it (which would fill the disk — exactly what she doesn't want). So the verification has a fundamental limit: we can compare names, sizes, and counts from the web view, but not hashes. That's an honest limitation to state. Actually — she could look at the cloud's "storage used" number vs. what's local... but sizes won't match exactly due to sync.
+
+Hmm, here's a thought: a genuinely useful verification is: the cloud's used-space figure vs. the total logical size of the local OneDrive trees. If the cloud reports ~177 GB used and the C: OneDrive folder is 177.06 GiB logical, that's strong corroboration that the cloud holds that content. That's a cheap, powerful cross-check! Similarly the D: tree at 133.25 GiB logical.
+
+That's a real contribution I can make: turn her answers into a specific, testable verification with a numeric target.
+
+Let me also reconsider: is there any chance the D: "OneDrive Backup 2026 Februar" IS the thing in the cloud, and the C: folder is a re-download/partial? The date signature 22-26 Feb 2026. C: OneDrive 40,973 files/177.06 GiB; D: 30,447 files/133.25 GiB. Not equal, so not a simple copy of each other. Windows.old OneDrive 40,980/177.04 — very close to the live C: one (40,973/177.06). Interesting.
+
+OK. Now — what does the user actually want from me right now? They said "Okay i have some authoritative answers:" and listed them. Given my role (orchestrator: review PRs, plain-language verdicts, next-worker prompts), and that these are new authoritative facts, the natural deliverables:
+
+    Plain-language read of what these answers mean, and the ONE critical thing to flag (the precondition isn't met + what would actually free space).
+    A worker prompt to record these as owner-confirmed facts in STATUS.md (and possibly adjust the Phase 0-4 plan's branch determination, and the register Q1-Q4 status).
+
+I should probably ask whether to also update the plan/guide, or just do it. Hmm. Let me consider using ask_user. There's a real ambiguity: does she want the D: tree GONE (i.e., is the D: "OneDrive Backup 2026 Februar" the target)? And is her goal space or tidiness? Those matter a lot for the next step. But — I can also present a/b/c options in the deliverable, which is the house stance. And she may not know yet.
+
+Actually, I think the most valuable thing I can do is: (1) flag the critical safety insight clearly, (2) write the worker prompt to record the answers, and (3) note the specific numeric cross-checks her answers unlock.
+
+But wait — should I do the work (write the prompt) or ask first? The user's message is informational. In this session's rhythm, when the user gives me info, I assess and produce the next-step artifact. Given they said "authoritative answers," they want them recorded/used. I'll write the prompt. But I should be careful: there's a genuine ambiguity about whether these answers should also change the recommendation structure. Also: these answers significantly change the picture — should the cloud guide be updated to add the specific cross-checks?
+
+Let me think about what the ideal PR is. Options:
+
+    (A) Record the four answers in STATUS.md as owner-confirmed items + update the Phase 0-4 plan's register/branches. Small, clean.
+    (B) Record + add the specific numeric verification targets to the cloud guide.
+    (C) Record + write a new "what would have to be true before anything is removed from internal storage" verification document.
+
+Hmm. And there's a big question: does recording "Tanja wants OneDrive stuff gone from internal storage" in the repo violate the "no deletion instructions" constraint? It's not an instruction — it's a recorded owner goal. That should be OK if framed as a goal/decision, not an instruction. But it MUST be framed carefully: the repo must not say "remove X." It can say "the owner's stated goal is that cloud-only content not occupy internal storage; the precondition she names (confidence the cloud holds it) is not yet established."
+
+Actually, that's really the elegant framing: her own condition is the gate. She said "as long as she has peace of mind that it stays in the cloud." So the repo doesn't need to invent a safety gate — Tanja set one herself. The plan is: satisfy her condition, then the goal is hers to act on. That perfectly matches the house stance and the advisory constraint. Beautiful.
+
+Now let me also think hard about a subtle danger I should flag prominently:
+
+DANGER: "getting OneDrive stuff gone from internal storage" could be done the wrong way. Specifically:
+
+    If she deletes the C: OneDrive folder (or its contents) to "get it off internal storage," and sync is two-way, the deletion can propagate and delete the cloud copies. That would destroy the backup. "Free up space" is the correct operation (it converts files to placeholders) — but in her case they're ALREADY placeholders.
+    Actually wait. Here's the thing. The C: OneDrive folder content is ALREADY not on internal storage (0 physical). So her wish regarding C: is already satisfied in the space sense. What she sees is a folder that LOOKS like it has files. If the desire is to not see it / to have it gone from the file listing — that requires either unlinking the account (changes state, stops sync/backup!) or removing the folder (risky, may propagate). Both are actions the repo can't instruct. But identifying them as the options with their consequences is exactly the a/b/c service.
+
+Hmm, this is important. Let me be precise and careful about what I claim regarding "unlink the account." Unlinking OneDrive from the PC would stop the sync relationship. If the cloud is the backup, unlinking doesn't delete the cloud copy — the cloud keeps what it has. But it also means the PC stops syncing, and the placeholders would... hmm, on unlink, OneDrive typically offers to keep or remove local copies. I should NOT assert specifics about OneDrive behavior that I haven't verified. Better: flag it as a question for the settings-reading step, and note that unlinking changes the arrangement and needs its own understanding. Don't over-assert.
+
+Let me be honest about my uncertainty and frame these as "the questions that must be answered by looking at the settings."
+
+OK, also — the "single uploads or downloads are fine at her discretion" point. That's consistent with the redundancy-policy framing (guideline not law, deviations are ordinary choices). And "never intended for OneDrive files to be downloaded onto internal storage" — this tells us the CURRENT placeholder state is the intended state, which means any fully-resident copy of cloud content on internal storage is a deviation from her intent — which is probably how the D: tree came to be. Hmm, but the D: tree is named "Backup 2026 Februar" — a deliberate local backup of the cloud content, dated. That might have been made precisely BECAUSE she didn't trust the cloud, or as a migration. Careful — don't speculate as fact. Flag as a question.
+
+Let me now think about whether Q1-Q4 get answered:
+
+    Q1 (does the cloud hold the data?): No — still unverified. She says it was INTENDED as backup. Intent ≠ current state. This is the crucial distinction. Actually, this slightly reframes Q1: she's telling us what it was FOR, not what's IN it. And "peace of mind that it stays in the cloud" implies she doesn't currently have confirmed knowledge either.
+    Q2 (intended role): ANSWERED — virtual backup of her most important folders. ✓
+    Q3 (quota): Not answered — still unknown.
+    Q4 (sync configuration): Partially — her intent is cloud→local-only (no downloads to internal). But whether the actual sync is one-way/two-way is still a settings question.
+
+So of Q1–Q4: one clearly answered (Q2), one clarified-intent-only (Q1), one part (Q4), one not (Q3). Honest assessment.
+
+So the guide is STILL needed and now has a sharper purpose.
+
+Hmm! And here's a nice refinement: the guide's cross-check ("if quota is much smaller than 346 GB, important observation") now becomes even sharper, because she intends the cloud to hold her most important folders — if the quota can't hold it, the intent was never achievable.
+
+Let me now also reconsider: is there a risk I'm over-engineering? Let me focus on what's most valuable:
+
+    The critical flag: her goal is conditional on peace of mind; that condition is unmet; and one half of "OneDrive stuff on internal storage" (the C: placeholders) occupies zero bytes so removing it frees nothing — the real 133 GiB is the D: tree. This is THE insight.
+
+    The wrong-way risk: removing to "get it gone" can propagate deletion cloud-ward, which would destroy the very backup she wants peace of mind about. "Free up space" vs "delete" is the distinction that matters.
+
+    The verification is cheap and now has a numeric target: cloud used-space vs 177.06 GiB (C: OneDrive) / 133.25 GiB (D: tree).
+
+    Record the answers in STATUS as owner-confirmed.
+
+Let me write the worker prompt for #4, and possibly a small addition to the guide.
+
+Wait — should I update the guide? The guide hasn't been run yet. Adding the new cross-checks (compare the cloud's used space against 177 GB / 133 GB) would make it much more useful. That's a strong argument for a follow-up PR on the guide. But the guide is currently an open PR (#36). Should the answers go into PR #36 before merge, or a new PR after? PR #36 is merge-ready. I'd say: merge #36, then a follow-up PR that (a) records the owner's answers in STATUS, and (b) sharpens the guide with the numeric cross-checks.
+
+Hmm, but "as long as she has peace of mind that it stays in the cloud" — this reframes the guide's PURPOSE. Before, it was "what's in the cloud?" Now it's "confirm the cloud holds what she thinks it holds, so she can act on her wish with confidence." That's a meaningfully better framing and it SERVES her goal. I think updating the guide is right — and it's a natural small PR.
+
+Let me be careful about one more thing: the guide's opening says the external drive was "vollständig und sorgfältig geprüft" etc. If I now add "your goal is to get OneDrive off internal storage," the guide must still avoid instructing removal. It can say: "Ihre Antworten klären, ob die Cloud den Inhalt wirklich hält — das ist die Voraussetzung, die Sie selbst genannt haben, bevor etwas vom PC verschwinden kann." Hmm — "bevor etwas vom PC verschwinden kann" is edging toward an action. Better to keep it about the condition: "Sie haben gesagt: solange Sie sicher sein können, dass es in der Cloud bleibt. Genau diese Sicherheit soll diese Prüfung liefern." That's clean — it's about providing confidence, not about performing removal.
+
+Let me now decide the deliverable shape and be efficient. I'll write ONE worker prompt covering a single PR that:
+
+    Records the four answers in STATUS.md as owner-confirmed (with the intent-vs-state distinction).
+    Updates the guide to (a) state its purpose as establishing the confidence she named, (b) ask the two numeric comparison questions (cloud used-space vs the two local tree sizes) — wait, careful: the guide should NOT put 177 GB and 133 GB in front of her as targets? Actually it could, as a "does this roughly match" check. Hmm, but that risks her reporting what we want to hear. Better: she records what she sees; the comparison is done by us. The guide should NOT tell her the expected numbers, to avoid anchoring. That's a good methodological point! If you tell someone "the cloud should show ~177 GB" and ask them what they see, they may report ~177. Better to have her record the raw observation.
+
+Hmm, but the guide already states "rund 346 GB" as the non-resident figure and frames the quota cross-check. That's a mild anchor already... but it's framed as "if much less, that's an important observation," which cuts against anchoring. I'll let that stand — actually no, let me think. For the quota question specifically, the risk is anchoring. But the guide's framing already handles it ("kein falscher Wert"). I'll keep it and add the folder-level comparison as something WE do afterward, per the guide's existing line "Die Liste der obersten Ordner (Punkt 4) ist das, was den Vergleich später möglich macht." Good — the guide already says the comparison happens later. So I don't need to add numbers; I just need to make sure the guide collects what the comparison needs: cloud used-space (Q3 ✓), top-level folder list (Q4 ✓), and whether files appear (Q5 ✓). The comparison targets exist in the repo already.
+
+So actually the guide needs only a small change: its purpose framing, plus possibly asking for the cloud's total size of the OneDrive folder itself (if the service shows per-folder size — the web view often does show folder sizes). That would be a genuinely useful new ask: "Zeigt der Dienst bei einem Ordner eine Größe an? Notieren Sie sie." That enables folder-level comparison. Nice, concrete, cheap.
+
+    Update docs/cloud-storage-inventory-template.md with a field for per-folder sizes if needed. Hmm — the template already got 4 new fields. Adding more... Careful about scope creep. Maybe one field: "Größe der obersten Ordner (falls angezeigt)".
+
+    Update the Phase 0-4 plan's register Q1-Q4 statuses + branch determination? The plan is a draft (merged as WIP - NOT AUTHORIZED). Updating a merged WIP draft is fine — it's a draft. Actually its §10 register should record which questions are answered. Hmm, but it's marked work in progress/not authorized. Recording owner answers into it is reasonable and keeps it honest.
+
+That might be too much for one PR. Let me scope: PR X = record the four answers in STATUS + update the guide's purpose framing and add the per-folder-size ask + template field. That's coherent: "her answers, and the guide sharpened to serve them." The plan update could be separate or included. I'll include a minimal plan update (register statuses) since leaving the register stale would be worse... Hmm, actually — the plan is a big 833-line doc; touching its register is small (a few lines). I'll allow it but mark it as a small, targeted update.
+
+Hmm, wait. Let me reconsider whether to update the plan at all. Risk: the plan's §10 register and §9 branches were carefully built. Marking Q2 answered and Q1 partially answered is a small honest edit. I think it's good. But it does mean the agent edits a file that the prompt said "do not modify." I need to be explicit in the new prompt that this is now authorized for the register section only.
+
+Hmm — actually, let me reconsider the whole thing once more. Is there a risk that recording "Tanja wants OneDrive stuff gone from internal storage" creates a repo-level instruction to remove? Let me re-read the constraint: "No PR may contain deletion, movement, archival, cloud-change, compression, renaming, or folder-reorganization instructions." Recording a goal is not an instruction — as long as it's phrased as her goal and explicitly NOT as an authorized action, and as long as the repo doesn't say how to remove things. And importantly: the gate is her own condition. I'll require the prompt to include explicit guards: no method/instruction for removal, no steps, her stated condition recorded as the gate, and the note that the condition is unmet.
+
+Actually — hmm, there's a real question about whether even recording her wish is wise. Let me think... Yes, it should be recorded. The repo is a state tracker; her goal is state. And it's the most consequential piece of information in the project: it defines the end goal that everything else serves. Not recording it would be worse — the plan would be optimizing without knowing what the owner wants. And the house stance says "serve the owner's goal." You can't serve it if it's not written down.
+
+But I must flag ONE thing to the user: recording her goal is fine, but the repo must never contain how to do it in a way that could be followed blindly before the cloud is verified. So: record the goal + record the unsatisfied precondition + record that nothing may be removed until the precondition is met. And that last point is a safety rule, which is allowed (the repo already has safety rules like "must not be interpreted as confirmed cloud backups").
+
+Now — one more critical technical point I should verify before writing: does the C: OneDrive content ALREADY occupy zero space? Yes: C:\Users\tanja_8jpsq4i\OneDrive = 177.06 GiB logical / 0.00 physical. So "OneDrive stuff gone from internal storage" for the C: tree frees 0 bytes. And the D: tree = 133.25 logical / 133.31 physical → real space.
+
+Let me verify these numbers from the repo to be safe (don't rely on memory).
+
+Also I should double check: is D:\OneDrive Backup 2026 Februar on internal storage? D: is an internal drive (D 856.40 GiB logical, 205,676 files). Yes, internal. And the external drives are... hmm, the topology: user's PC has C:, D:, E: internal? Earlier notes: "free space D 74.57 / E 39.99 / C 87.04 / G 1,049.68 GiB". And the external 2TB is... G: is the live external drive (1,863.01 GiB = 2TB). Hmm, but the "Largest trees" says D:\BACKUP große Platte (F) 151,447 / 593.21 GiB and E:\BACKUP lahme Platte (D) 87,812 / 261.90 GiB. And G: is the external.
+
+Wait, and the spickzettel says three disks: D: „Große Platte" 931 GB, E: „Lahme Platte" 298 GB, C: „Schnelle Platte". So C:, D:, E: are internal-ish (D and E are the old drive names — "große Platte" and "lahme Platte" — those are the drives that got backed up to the external). Hmm, and there's G: as the external. So D: and E: are internal drives. OK so D:\OneDrive Backup 2026 Februar is on internal D:. Good.
+
+Hmm, but is it possible D: is actually an external drive mounted? The spickzettel says "Ihr PC hat drei Festplatten: D:, E:, C:" — so D: and E: are part of her PC. Internal storage, yes.
+
+Let me verify the key numbers from the repo, then write.
+
+Let me plan the concrete tool calls:
+
+    Verify: C: OneDrive tree sizes, D: OneDrive Backup tree sizes, the 346.27 GiB placeholder total, free space figures.
+    Check STATUS.md confirmed-scope section formatting so the prompt matches.
+    Write the worker prompt.
+    Present it.
+
+Let me also consider whether to ask the user anything. Potential questions:
+
+    Does "the OneDrive stuff on internal storage" mean the C: placeholder folder, the D: backup tree, or both? — This IS the crux and she may not have distinguished them. But I can handle it by offering a/b/c in the deliverable rather than blocking. Actually, this is a genuinely important ambiguity that affects the goal... but I can serve it better by laying out the two candidates with their space facts, since the answer will likely follow from seeing the numbers (D: = 133 real GiB, C: = 0 bytes). I'll present it rather than ask. Hmm.
+
+Hmm, but actually — should I use ask_user here? The guidance says use it to resolve important ambiguities that impede completion. Does this impede? I can write the prompt without knowing, by covering both. And the user isn't the owner — the user is the orchestrator/owner-of-the-project relaying answers... Actually the user IS relaying Tanja's answers, so the user may not be able to answer further anyway. Better to write the deliverable and flag the question for Tanja. I won't block with ask_user.
+
+Actually, wait. Let me reconsider — there is one thing worth asking: whether these four answers should go into PR #36 before it merges (one PR) or as a follow-up. That's a workflow question I can just decide: #36 is clean and merge-ready; its two nits are cosmetic. Merge it, then follow up. I'll recommend that. No need to ask.
+
+Let me do the verification now.
+
+One more important consideration — the D: tree and "peace of mind." If she wants the D: tree gone from internal storage, what she'd need is confidence that its content exists in the cloud. The cloud guide's folder list would show whether "OneDrive Backup 2026 Februar" (or its contents) appears in the cloud. But the D: tree might be a copy of content that lives in the cloud under different folder names. So the check is: does the cloud contain the same files? Name/size/count comparison. That's the real work, and it needs a cloud inventory.
+
+Alternatively — and this is important — is the D: tree perhaps a copy of the C: OneDrive content? If so, the C: tree already represents what's synchronized with the cloud, and the D: tree is a redundant local snapshot. If the cloud holds the C: content, then the D: tree's content would be safe in the cloud IF the D: tree ⊆ C: tree. 30,447 files vs 40,973 files. Hmm, D: could be a subset. That's a testable hypothesis: compare the D: tree's file list against the C: tree's file list. But note the D: tree's content is in the raw export — we could potentially compare names/sizes! That's an interesting analysis... but it requires the raw export's per-file rows for both trees. data/raw/2026-09-07-windirstatlog.csv.gz has per-file rows. So a script could check: how many of the D: tree's 30,447 files have a same-name-and-size counterpart in the C: OneDrive tree? That's a genuinely valuable, read-only analysis that would tell her whether the D: copy is redundant. That's a strong candidate for a future PR.
+
+Hmm! That's actually the highest-value new analysis available. Let me flag it as the natural follow-up after the guide: a "no-script-needed"? No, it needs a script. It's an analysis of committed evidence — allowed (analysis scripts are fine; the repo has many). That could resolve the D: tree question without any PC access — because we already have both trees in the export!
+
+Wait, careful: do we have the C: OneDrive tree's FILE LIST in the export? The export is a WinDirStat log with per-file rows, yes — that's how the folder stats were computed. So yes, we have names+sizes for files in both trees. So we CAN do a name+size match between the D: tree and the C: OneDrive tree, entirely from committed evidence, with no PC access.
+
+That is a big deal for her goal: it would tell her whether the D: "OneDrive Backup 2026 Februar" tree is (a) fully represented inside the C: OneDrive tree (→ its content is the same stuff that syncs to the cloud), or (b) partly unique (→ it holds content that may NOT be in the cloud at all).
+
+Caveat: name+size match is not byte-identity, and the existing repo convention is that size-match ≠ verified duplication. So it would be a coverage/overlap analysis, stated as such. But it's still very informative.
+
+Hmm, and there's the profile-filter issue — but this is a different comparison (folder-to-folder within the export), not the hash profiles. The export has ALL files. So no profile limitation. But wait — is the export's C: OneDrive tree complete? It's the WinDirStat scan → all files listed. Yes.
+
+So: TWO follow-up candidates:
+
+    (i) Cloud guide sharpened (needs her to run it; ~15 min).
+    (ii) D:-tree vs C:-OneDrive-tree overlap analysis from committed evidence (no PC, no her time).
+
+(ii) is available immediately and could answer whether the 133 GiB local tree is redundant. That's very much worth proposing.
+
+I think the best next PR combines: record her answers + sharpen the guide + (maybe) authorize the overlap analysis. Hmm, three things might be too much for one PR. Let me structure:
+
+PR A (record + guide): STATUS owner-confirmed answers, guide purpose framing + per-folder-size ask, template field, plan register statuses. PR B (analysis): D: tree vs C: OneDrive tree overlap.
+
+I'll write PR A's prompt as the immediate one and recommend PR B next, or include B as a second prompt. Given the user asked me to write prompts before, and the rhythm, I'll write the primary prompt (A) and describe B as ready to write on request — or write both? Writing both is more useful. But two prompts might dilute. Hmm. The user said "Okay i have some authoritative answers:" — they want them used. I'll write the main prompt (A) and offer B.
+
+Hmm, actually — thinking about value: B might be MORE valuable than A, because it's actionable without her time and could directly resolve whether 133 GiB can go. But B's answer depends on her cloud verification anyway for "peace of mind." So order: A first (records + prepares), B as the analysis that runs in parallel. Actually B can run NOW without her doing anything, so it's the better immediate PR. But A records the authoritative answers, which should happen promptly so state is canonical.
+
+I'll write A (recording + guide sharpening) as the prompt, and write B as a second prompt in the same file? No — separate files, or one file with two sections? The user presented me with a decision point implicitly. Let me write ONE prompt file that covers PR A, and mention PR B clearly and offer to write it. Hmm, but I did tell the user last time "Want me to write that prompt?" and they said yes. Now they gave answers; the natural expectation is a prompt. I'll write the A prompt and include a short "next analysis (separate PR)" spec inside the same prompt file as an optional second deliverable? That muddies PR scope.
+
+Decision: Write one prompt file for PR A (record + guide). Then, in my reply, state clearly that the overlap analysis (PR B) is available immediately with no PC access and no time from Tanja, and ask if they want that prompt now. Hmm — but the guidance says don't end the turn waiting if I can just do it... Actually I can just write both prompts. Two files, two PRs, clearly ordered. That's more useful and doesn't require a round trip. I'll do both but keep B tighter.
+
+Hmm, wait. Let me reconsider the scope of B. Is a new script + analysis appropriate as a next step, or should it wait? The repo is advisory-only; analysis scripts exist and are tested. B would add a script like analyze_folder_overlap.py-style but for tree-to-tree matching. There's already scripts/analyze_folder_overlap.py which did same-volume pair overlap → folder-overlap-summary.csv (75 rows). But that was for same-volume pairs. Cross-tree (D: tree vs C: tree) matching is a different analysis — and note the existing script "against the working-tree personal-media inventory differs from committed folder-overlap-summary.csv (high-impact) — deliberate, never 'correct'". So I must be careful not to disturb that.
+
+Hmm, this raises a risk: a new script could conflict or confuse with the existing overlap analysis. To keep it safe and distinct, B should be a NEW, narrowly-scoped script, e.g. analyze_cloud_tree_coverage.py, producing a small committed summary, clearly separate from folder-overlap-summary.csv. Or even simpler: B could be a one-off analysis reported in a document rather than a committed CSV — but the repo convention is committed evidence artifacts. I'll let it produce a small evidence file/table.
+
+Hmm, but is B premature? The prompt-work we do has been careful and staged. B is genuinely new analysis of committed evidence answering a real question for her goal. I think it's good and well-aligned: read-only, advisory, no PC.
+
+Hmm, however — I realize I should double check one thing: does the raw export actually contain the C: OneDrive tree's individual files? The overview's largest trees list includes C:\Windows.old etc. And the placeholder analysis (78,076 rows) needed per-row data. Yes, per-file rows exist. But the gz file is large (61k+ files... actually 856,579 files total). Let me check the raw file exists and its size, and confirm the C: OneDrive tree has file rows.
+
+Actually, let me not over-verify; I'll instruct the agent to verify. But I should at least confirm the raw export is present with per-file rows for both trees, otherwise B is impossible and I'd be writing a bogus prompt. Let me check quickly.
+
+Let me do the verification calls now.
+
+Plan of tool calls (batch where independent):
+
+    Verify C: OneDrive + D: OneDrive Backup numbers from top-folders.csv, and the placeholder total.
+    Check the raw export has per-file rows for both trees (a quick zcat | grep -c).
+    Read STATUS.md confirmed-scope section + the guide's current text (already have) + plan register Q1-Q4 lines.
+
+Then write prompts.
+
+Let me go.
+
+Actually for efficiency, let me combine 1 and 2 into one bash call and 3 into another; they're independent.
+
+Let me write the commands carefully. The CSV top-folders.csv — I need its columns. Let me just grep for OneDrive rows.
+
+For the raw export: zcat data/raw/2026-09-07-windirstatlog.csv.gz | head -2 to see format, then count rows matching the two trees. Careful: is the file in the repo working tree? Note git show origin/main:data/... worked, so it's committed. Let me check locally first.
+
+Let me be efficient: one call that does the CSV checks and the raw-file presence check; another that dumps STATUS confirmed scope + plan register.
+
+Note: the workspace working tree is at commit 1bab6e0 (old). So local files may be stale. Better to read from origin/main. Let me fetch and use git show origin/main:.... The raw gz is big — git show on a big gz each time is slow but fine once. Actually let me check if the file exists locally.
+
+Hmm — do I even need the raw check for PR B? It matters for feasibility. Let me do a light check: does the file exist and how many rows? Use zcat | wc -l once (could be ~857k rows, fine).
+
+Let me proceed.
+
+For the guide's per-folder-size ask: OneDrive web view does show folder sizes? Hmm, I'm not certain the OneDrive web UI shows per-folder sizes (it shows total used). This is exactly the kind of thing I shouldn't assert. Better: the prompt asks the agent to phrase it conditionally — "falls der Dienst eine Größe anzeigt". That's safe and already how the guide handles the settings ("Falls die Einstellungen zeigen..."). Good, I'll require conditional phrasing.
+
+Also: I should consider whether to tell her to record the cloud's used space precisely (it already does, Q3). Comparing cloud used-space vs the C: tree's 177.06 GiB logical is the key numeric check.
+
+One more: her statement "never intended for OneDrive files to be downloaded onto internal storage" means any FULLY-RESIDENT OneDrive content on internal storage is contrary to intent. Do we have such content? The C: tree is 0 physical → compliant. C:\Windows.old\...\OneDrive = 177.04 logical / 7.84 physical → mostly non-resident (7.84 GiB resident — that's Windows.old, an old OS folder, probably not syncing at all). Are there other OneDrive-named folders with real physical size? Earlier: "OneDrive-named folders D:/E: = 437 (nested-summed 532.10 GiB inflated — do not quote)". Hmm! 437 OneDrive-named folders on D:/E:. That's a lot. But nested-summed figures are inflated. So we don't have a clean figure for total resident OneDrive-named content on internal storage.
+
+That's actually an important gap for her goal: how much OneDrive-named content actually occupies internal storage, resident? The D: one is 133.31 GiB physical. Are there others? The 437 folders figure suggests OneDrive-named folders are scattered on D: and E:. Hmm, that could be a valuable inventory: "OneDrive-named folders on internal storage, resident bytes". That's another candidate analysis (C). Hmm, that might be MORE on-point for her goal than the D:-vs-C: overlap: she wants "OneDrive stuff gone from internal storage" — so first, precisely inventory WHICH OneDrive-named things occupy HOW MUCH real space internally. That's a direct, data-backed answer to "what is the OneDrive stuff on internal storage?"
+
+So PR B (or C) could be: enumerate OneDrive-named folders across internal volumes (C:, D:, E:) with resident (physical) bytes, top-level, non-nested-double-counted. That directly serves her goal by telling her what there is to act on, and how much real space is involved. And it must avoid the nested-summing inflation error that was flagged.
+
+Hmm, now I have three candidate follow-ups: (A) record+guide, (B) OneDrive-named inventory of internal storage, (C) D:-tree vs C:-tree overlap. That's a lot. Let me prioritize:
+
+    A: records state, sharpens the instrument. Do now.
+    B: directly answers "what is the OneDrive stuff on internal storage?" — needed for her goal, no PC, uses committed evidence. High value.
+    C: answers "is the D: tree redundant with what syncs to the cloud?" — also high value, but its conclusion depends on the cloud being verified (A's guide) to give peace of mind. Still useful now.
+
+B and C could be one PR: "OneDrive content on internal storage: what and how much" — inventory + whether it's represented in the sync tree. Hmm, that's coherent! Both are about characterizing the OneDrive content that's resident internally.
+
+Maybe that's over-stuffing. Let me make B the single next analysis PR: "inventory OneDrive-named content on internal storage (C:/D:/E:) with resident bytes, and flag which of it is resident vs placeholder." Then C can follow.
+
+Hmm, but honestly, the D: tree is 133 of the ~133+ GiB, so B might just confirm "it's mostly the D: tree." Cheap to find out though.
+
+OK let me simplify my deliverable strategy:
+
+    Prompt 1 (PR A): record her four answers + sharpen the guide + template field + plan register statuses. This is the immediate, canonical next PR.
+    Prompt 2 (PR B): read-only inventory of OneDrive-named content on internal storage with resident bytes (no PC, committed evidence), non-nested. This is what tells her what "the OneDrive stuff on internal storage" actually consists of and how much real space it holds.
+
+And I'll mention C (overlap) as a follow-up to offer later.
+
+Hmm, is Prompt 2 well-founded? I need the "437 OneDrive-named folders D:/E:" figure's provenance. It's in my session memory; I should verify it to write an accurate prompt. Let me check the repo for how that was derived. If it's not in the repo, I should write the prompt so the agent derives it fresh (that's safer anyway — I'll instruct the agent to derive from the raw export rather than trust a number).
+
+Actually — better: write Prompt 2 to have the agent derive everything from top-folders.csv + the raw export, with explicit instructions about the nested-summing pitfall and the physical-vs-logical distinction. And require it to state coverage limits.
+
+Let me verify a few things then write.
+
+Let me start with the verification bash calls.
+
+I'll do: Call 1: OneDrive rows in top-folders.csv + placeholder totals. Call 2: STATUS confirmed scope + plan register Q1-Q4 + check raw export exists.
+
+Then write.
+
+Let me make sure of column names. Let me just dump the header and grep OneDrive.
+
+Go.
+
+Also, one more thought on the four statements. Statement 1 and 2 use "Tanja confirmed" — these are owner-stated. Statement 4 is a WANT (a goal), also owner-stated. I should record all four as [Owner-stated] per voice.md §4, verbatim-ish, without editorializing. And I must be careful: the repo's docs/voice.md §4 has labels including [Owner-stated]. Good.
+
+Also — the user says "Tanja wants to have the OneDrive stuff gone from internal storage." I should be careful in my reply to not imply the repo will instruct removal. And flag the one hard safety point: the precondition (cloud verification) is unmet, and there's a wrong-way-to-do-it risk (delete propagates). That's the most valuable thing I can say.
+
+Let me also compute: if the D: tree (133.31 GiB physical) were removed from internal storage, that's ~133 GiB freed — significant vs D: free space 74.57 GiB. That's a big deal for D: (which is nearly full). Good context: D: has only 74.57 GiB free; the OneDrive Backup tree there is 133.31 GiB. So this is plausibly THE thing she cares about — D: being full, and 133 GiB of OneDrive backup sitting on it. That makes total sense: "get the OneDrive stuff off internal storage" = free D: by removing the 133 GiB local OneDrive backup, IF the cloud has it.
+
+Hmm, but careful: is D:\OneDrive Backup 2026 Februar inside the G: external drive? No — D: is internal. Good. And note D:\BACKUP große Platte (F) 593.21 GiB is the external-drive backup content on D:? Hmm, confusing naming: folders named "BACKUP große Platte (F)" on D: — the external drive was labeled F:/D: at some point. Anyway.
+
+So: her goal most likely = free internal space (especially D:, 74.57 GiB free) by removing local OneDrive copies, once the cloud is confirmed. And the precondition check is the guide.
+
+Now, an important nuance for peace of mind: if the D: tree is 133.25 GiB logical and the cloud's used space is, say, only 5 GB (free tier), then the cloud cannot hold it, and removing the D: tree would be dangerous. The numeric cross-check is: cloud used space should be ≥ ~133 GB (and/or ~177 GB) to plausibly hold the content. That's a crisp, high-stakes test. Excellent — I'll make sure both prompts carry it.
+
+Also possible: cloud quota 1 TB but used only 5 GB → then the cloud does NOT hold the content, and the "virtual backup" intent was never realized (perhaps sync stopped years ago). That's the branch-B scenario, and it's a real possibility given the February 2026 date signature and no evidence of recent sync. Hmm — actually the Windows.old OneDrive tree at 177.04 GiB suggests a prior Windows install with OneDrive; and the current C: tree at 177.06 GiB. Are files currently syncing? Unknown. If sync is paused/broken, placeholders might be stale. That's a real risk worth naming: placeholders can outlive a working sync. If sync broke, the placeholder list might be a stale index and the cloud might not hold everything. This is a strong argument for verifying before removing. I'll include it as an uncertainty to check (Q7 settings: is sync running or paused?).
+
+Alright, writing time. Let me do the verification calls first.
+
+Let me batch two independent bash calls.
