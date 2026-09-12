@@ -1,0 +1,99 @@
+/startchewtoy.sh
+2026-09-12 13:12:55,124 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2026-09-12 13:12:55,124 | WARNING | discord.client | davey is not installed, voice will NOT be supported
+2026-09-12 13:12:55,125 | INFO | discord.client | logging in using static token
+2026-09-12 13:12:56,774 | INFO | chewtoy | Loaded extension: cogs.devtools
+2026-09-12 13:12:56,821 | INFO | chewtoy | Loaded extension: cogs.purge
+2026-09-12 13:12:56,825 | INFO | chewtoy | Loaded extension: cogs.spamtyper
+2026-09-12 13:12:56,829 | INFO | chewtoy | Loaded extension: cogs.webhooker
+2026-09-12 13:12:56,832 | INFO | chewtoy | Loaded extension: cogs.practicerater
+2026-09-12 13:12:56,954 | INFO | chewtoy | Loaded extension: cogs.attachment
+2026-09-12 13:12:56,955 | INFO | chewtoy | Loaded extension: cogs.migration_audit
+2026-09-12 13:12:56,957 | INFO | chewtoy | Loaded extension: cogs.structure
+2026-09-12 13:12:56,959 | INFO | chewtoy | Loaded extension: cogs.members
+2026-09-12 13:12:56,964 | INFO | chewtoy | Loaded extension: cogs.testing
+2026-09-12 13:12:56,964 | INFO | chewtoy | SIGTERM now shuts the bot down gracefully
+2026-09-12 13:12:58,075 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: c6d9c919a6a98f3998479a645bac8b64).
+2026-09-12 13:13:00,272 | INFO | chewtoy | Logged in as GeoAI#2916 (ID: 1527644483414523994)
+2026-09-12 13:13:00,272 | INFO | chewtoy | Connected to 4 guild(s)
+2026-09-12 13:13:00,273 | INFO | chewtoy | Active Cogs: DevTools, Purge, SpamTyper, Webhooker, PracticeRater, Attachment, MigrationAudit, Structure, Members, Testing
+2026-09-12 14:48:26,285 | INFO | chewtoy.structure | Structure compare yyn (1489236876736069662) -> DND Backup September 2026 (1546831373451526164) by 847445853584883712: 129 difference(s)
+2026-09-12 14:56:16,455 | INFO | chewtoy.attachment | Created category 'least-delete-option' in DND Backup September 2026
+2026-09-12 14:56:17,354 | INFO | chewtoy.attachment | Created category 'testcategory' in DND Backup September 2026
+2026-09-12 14:56:18,227 | INFO | chewtoy.attachment | Created category 'test2' in DND Backup September 2026
+2026-09-12 14:56:19,423 | INFO | chewtoy.attachment | Created category 'Channels' in DND Backup September 2026
+2026-09-12 14:56:20,325 | INFO | chewtoy.attachment | Created category 'inactive channels' in DND Backup September 2026
+2026-09-12 14:56:21,250 | INFO | chewtoy.attachment | Created category 'Invisible Channels' in DND Backup September 2026
+2026-09-12 14:56:22,196 | INFO | chewtoy.attachment | Created text channel '#hawkins🪓🪓' in DND Backup September 2026
+2026-09-12 14:56:23,097 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos🪓🪓' in DND Backup September 2026
+2026-09-12 14:56:24,278 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes🪓🪓' in DND Backup September 2026
+2026-09-12 14:56:25,371 | INFO | chewtoy.attachment | Created text channel '#daily-reflections❓' in DND Backup September 2026
+2026-09-12 14:56:26,297 | INFO | chewtoy.attachment | Created text channel '#calibrations🗿' in DND Backup September 2026
+2026-09-12 14:56:27,243 | INFO | chewtoy.attachment | Created text channel '#calibration-discussions🗿' in DND Backup September 2026
+2026-09-12 14:56:28,149 | INFO | chewtoy.attachment | Created text channel '#personal-calibrations🪓' in DND Backup September 2026
+2026-09-12 14:56:29,042 | INFO | chewtoy.attachment | Created text channel '#hawkins-archive🗿' in DND Backup September 2026
+2026-09-12 14:56:29,953 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos-2🗿' in DND Backup September 2026
+2026-09-12 14:56:30,850 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes-2🗿' in DND Backup September 2026
+2026-09-12 14:56:31,880 | INFO | chewtoy.attachment | Created text channel '#barret-of-slides❓' in DND Backup September 2026
+2026-09-12 14:56:32,757 | INFO | chewtoy.attachment | Created text channel '#doc-bot🗿' in DND Backup September 2026
+2026-09-12 14:56:34,400 | INFO | chewtoy.attachment | Created text channel '#the-spiritual-essentials🗿' in DND Backup September 2026
+2026-09-12 14:56:35,421 | INFO | chewtoy.attachment | Created text channel '#library❓' in DND Backup September 2026
+2026-09-12 14:56:36,434 | INFO | chewtoy.attachment | Created text channel '#hawkins' in DND Backup September 2026
+2026-09-12 14:56:37,424 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos' in DND Backup September 2026
+2026-09-12 14:56:38,349 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes' in DND Backup September 2026
+2026-09-12 14:56:39,225 | INFO | chewtoy.attachment | Created text channel '#daily-reflections❓' in DND Backup September 2026
+2026-09-12 14:56:40,203 | INFO | chewtoy.attachment | Created text channel '#barret-of-slides❓' in DND Backup September 2026
+2026-09-12 14:56:41,072 | INFO | chewtoy.attachment | Created text channel '#calibrations' in DND Backup September 2026
+2026-09-12 14:56:42,478 | INFO | chewtoy.attachment | Created text channel '#calibration-discussions' in DND Backup September 2026
+2026-09-12 14:56:43,383 | INFO | chewtoy.attachment | Created text channel '#doc-bot' in DND Backup September 2026
+2026-09-12 14:56:44,310 | INFO | chewtoy.attachment | Created text channel '#the-spiritual-essentials' in DND Backup September 2026
+2026-09-12 14:56:45,361 | INFO | chewtoy.attachment | Created text channel '#library❓' in DND Backup September 2026
+2026-09-12 14:56:46,282 | INFO | chewtoy.attachment | Created text channel '#general' in DND Backup September 2026
+2026-09-12 14:56:47,362 | INFO | chewtoy.attachment | Created text channel '#to-do-masterlist' in DND Backup September 2026
+2026-09-12 14:56:48,237 | INFO | chewtoy.attachment | Created text channel '#test' in DND Backup September 2026
+2026-09-12 14:56:49,145 | INFO | chewtoy.attachment | Created text channel '#test2' in DND Backup September 2026
+2026-09-12 14:56:50,061 | INFO | chewtoy.attachment | Created text channel '#memes' in DND Backup September 2026
+2026-09-12 14:56:50,982 | INFO | chewtoy.attachment | Created text channel '#「✦welcome✦」' in DND Backup September 2026
+2026-09-12 14:56:51,856 | INFO | chewtoy.attachment | Created text channel '#ᓚᘏᗢ°cattos' in DND Backup September 2026
+2026-09-12 14:56:53,055 | INFO | chewtoy.attachment | Created text channel '#geo' in DND Backup September 2026
+2026-09-12 14:56:53,978 | INFO | chewtoy.attachment | Created text channel '#lakshay' in DND Backup September 2026
+2026-09-12 14:56:54,893 | INFO | chewtoy.attachment | Created text channel '#lakshay-worry-channel' in DND Backup September 2026
+2026-09-12 14:56:56,665 | INFO | chewtoy.attachment | Created text channel '#kaj' in DND Backup September 2026
+2026-09-12 14:56:57,762 | INFO | chewtoy.attachment | Created text channel '#raul' in DND Backup September 2026
+2026-09-12 14:56:58,684 | INFO | chewtoy.attachment | Created text channel '#crveni' in DND Backup September 2026
+2026-09-12 14:56:59,611 | INFO | chewtoy.attachment | Created text channel '#barret' in DND Backup September 2026
+2026-09-12 14:57:00,582 | INFO | chewtoy.attachment | Created text channel '#the-hand' in DND Backup September 2026
+2026-09-12 14:57:01,544 | INFO | chewtoy.attachment | Created text channel '#yumetorium' in DND Backup September 2026
+2026-09-12 14:57:02,422 | INFO | chewtoy.attachment | Created text channel '#lou' in DND Backup September 2026
+2026-09-12 14:57:03,298 | INFO | chewtoy.attachment | Created text channel '#backupplanning' in DND Backup September 2026
+2026-09-12 14:57:04,232 | INFO | chewtoy.attachment | Created text channel '#info' in DND Backup September 2026
+2026-09-12 14:57:05,161 | INFO | chewtoy.attachment | Created text channel '#vannablooms' in DND Backup September 2026
+2026-09-12 14:57:06,179 | INFO | chewtoy.attachment | Created text channel '#ᯓ★suggestions' in DND Backup September 2026
+2026-09-12 14:57:07,139 | INFO | chewtoy.attachment | Created text channel '#𑣲⋆collection' in DND Backup September 2026
+2026-09-12 14:57:08,049 | INFO | chewtoy.attachment | Created text channel '#˚˖𓍢ִ໋❀°gratitude' in DND Backup September 2026
+2026-09-12 14:57:09,014 | INFO | chewtoy.attachment | Created text channel '#𖡊°lightbulb' in DND Backup September 2026
+2026-09-12 14:57:09,942 | INFO | chewtoy.attachment | Created text channel '#server' in DND Backup September 2026
+2026-09-12 14:57:12,515 | INFO | chewtoy.attachment | Created text channel '#📖align' in DND Backup September 2026
+2026-09-12 14:57:13,426 | INFO | chewtoy.attachment | Created text channel '#server-archive' in DND Backup September 2026
+2026-09-12 14:57:14,324 | INFO | chewtoy.attachment | Created text channel '#modlog' in DND Backup September 2026
+2026-09-12 14:57:15,272 | INFO | chewtoy.attachment | Created text channel '#blisstext' in DND Backup September 2026
+2026-09-12 14:57:16,218 | INFO | chewtoy.attachment | Created forum channel '#geoforum' in DND Backup September 2026
+2026-09-12 14:57:17,223 | INFO | chewtoy.attachment | Created forum channel '#forum-of-various' in DND Backup September 2026
+2026-09-12 14:57:18,471 | INFO | chewtoy.attachment | Created forum channel '#geos-test-to-do-list-forum-channel' in DND Backup September 2026
+2026-09-12 14:57:19,542 | INFO | chewtoy.attachment | Created thread/post 'Yyn' under #lakshay (1/85)
+2026-09-12 14:57:21,285 | INFO | chewtoy.attachment | Created thread/post 'Talk to God' under #lakshay (2/85)
+2026-09-12 14:57:23,071 | INFO | chewtoy.attachment | Created thread/post 'Oommmmm' under #lakshay (3/85)
+2026-09-12 14:57:25,315 | INFO | chewtoy.attachment | Created thread/post 'Emoji's!' under #lakshay (4/85)
+2026-09-12 14:57:27,524 | INFO | chewtoy.attachment | Created thread/post 'Pretend to have no memory' under #lakshay (5/85)
+2026-09-12 14:57:29,077 | INFO | chewtoy.attachment | Created thread/post 'Anything goes' under #lakshay (6/85)
+2026-09-12 14:57:31,165 | INFO | chewtoy.attachment | Created thread/post 'I'll do it here' under #geo (7/85)
+2026-09-12 14:57:32,988 | INFO | chewtoy.attachment | Created thread/post 'Ok I can do it here' under #geo (8/85)
+2026-09-12 14:57:34,768 | INFO | chewtoy.attachment | Created thread/post 'DND channel contemplation' under #server (9/85)
+2026-09-12 14:57:37,517 | INFO | chewtoy.attachment | Created thread/post '𑣲⋆collection' under #forum-of-various (10/85)
+2026-09-12 14:57:39,063 | INFO | chewtoy.attachment | Created thread/post '𖡊°lightbulb' under #forum-of-various (11/85)
+2026-09-12 14:57:40,556 | INFO | chewtoy.attachment | Created thread/post 'Todo list' under #forum-of-various (12/85)
+2026-09-12 14:57:42,515 | INFO | chewtoy.attachment | Created thread/post 'Jesus AI' under #memes (13/85)
+2026-09-12 14:57:44,008 | INFO | chewtoy.attachment | Created thread/post 'laptop burning' under #geos-test-to-do-list-forum-channel (14/85)
+2026-09-12 15:00:40,890 | INFO | chewtoy.purge | Purge scan complete: scanned 122, selected 118, skipped 4
+2026-09-12 15:04:51,621 | INFO | chewtoy.attachment.migration | Migration report Devotional Non-Duality (1194598173742731284) -> DND Backup July 2026 (1529959386599129098) by 847445853584883712: 134 skipped, 7 not-migrated, 0 failed, 1 partial
+
