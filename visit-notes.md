@@ -51,3 +51,14 @@ However Tanja has no use for folder B.
 Assume all folders in the Cloud have actual images. Not just virtual links or empty files.
 
 
+
+Consider the following:
+Tanja receives Halloween pictures.
+She has a full folder of images on PC.
+She only wants the most important pictures in the Cloud, to not fill the cloud up so fast. Then she creates a folder in the cloud with the same name, but only with a selection of the images.
+She estimates about 15% of folders in the cloud are set up that way (partial clones of internal folders).
+
+
+
+
+
