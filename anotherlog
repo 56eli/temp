@@ -1,211 +1,734 @@
-2026-09-18 13:08:55,854 | INFO | chewtoy.attachment | Created category 'testcategory' in testtest3
-2026-09-18 13:08:56,822 | INFO | chewtoy.attachment | Created category 'test2' in testtest3
-2026-09-18 13:08:57,762 | INFO | chewtoy.attachment | Created category 'Channels' in testtest3
-2026-09-18 13:08:58,814 | INFO | chewtoy.attachment | Created category 'inactive channels' in testtest3
-2026-09-18 13:08:59,791 | INFO | chewtoy.attachment | Created category 'Invisible Channels' in testtest3
-2026-09-18 13:09:00,681 | INFO | chewtoy.attachment | Created text channel '#hawkins🪓🪓' in testtest3
-2026-09-18 13:09:01,833 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos🪓🪓' in testtest3
-2026-09-18 13:09:02,772 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes🪓🪓' in testtest3
-2026-09-18 13:09:03,734 | INFO | chewtoy.attachment | Created text channel '#daily-reflections❓' in testtest3
-2026-09-18 13:09:04,692 | INFO | chewtoy.attachment | Created text channel '#calibrations🗿' in testtest3
-2026-09-18 13:09:05,621 | INFO | chewtoy.attachment | Created text channel '#calibration-discussions🗿' in testtest3
-2026-09-18 13:09:06,626 | INFO | chewtoy.attachment | Created text channel '#personal-calibrations🪓' in testtest3
-2026-09-18 13:09:08,002 | INFO | chewtoy.attachment | Created text channel '#hawkins-archive🗿' in testtest3
-2026-09-18 13:09:09,046 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos-2🗿' in testtest3
-2026-09-18 13:09:10,355 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes-2🗿' in testtest3
-2026-09-18 13:09:11,289 | INFO | chewtoy.attachment | Created text channel '#barret-of-slides❓' in testtest3
-2026-09-18 13:09:12,193 | INFO | chewtoy.attachment | Created text channel '#doc-bot🗿' in testtest3
-2026-09-18 13:09:13,092 | INFO | chewtoy.attachment | Created text channel '#the-spiritual-essentials🗿' in testtest3
-2026-09-18 13:09:13,970 | INFO | chewtoy.attachment | Created text channel '#library❓' in testtest3
-2026-09-18 13:09:14,879 | INFO | chewtoy.attachment | Created text channel '#hawkins' in testtest3
-2026-09-18 13:09:15,837 | INFO | chewtoy.attachment | Created text channel '#hawkins-videos' in testtest3
-2026-09-18 13:09:16,820 | INFO | chewtoy.attachment | Created text channel '#hawkins-quotes' in testtest3
-2026-09-18 13:09:17,743 | INFO | chewtoy.attachment | Created text channel '#daily-reflections❓' in testtest3
-2026-09-18 13:09:18,689 | INFO | chewtoy.attachment | Created text channel '#barret-of-slides❓' in testtest3
-2026-09-18 13:09:19,674 | INFO | chewtoy.attachment | Created text channel '#calibrations' in testtest3
-2026-09-18 13:09:20,573 | INFO | chewtoy.attachment | Created text channel '#calibration-discussions' in testtest3
-2026-09-18 13:09:21,493 | INFO | chewtoy.attachment | Created text channel '#doc-bot' in testtest3
-2026-09-18 13:09:22,387 | INFO | chewtoy.attachment | Created text channel '#the-spiritual-essentials' in testtest3
-2026-09-18 13:09:23,268 | INFO | chewtoy.attachment | Created text channel '#library❓' in testtest3
-2026-09-18 13:09:24,184 | INFO | chewtoy.attachment | Created text channel '#general' in testtest3
-2026-09-18 13:09:25,474 | INFO | chewtoy.attachment | Created text channel '#to-do-masterlist' in testtest3
-2026-09-18 13:09:26,388 | INFO | chewtoy.attachment | Created text channel '#test' in testtest3
-2026-09-18 13:09:28,150 | INFO | chewtoy.attachment | Created text channel '#memes' in testtest3
-2026-09-18 13:09:29,042 | INFO | chewtoy.attachment | Created text channel '#「✦welcome✦」' in testtest3
-2026-09-18 13:09:29,971 | INFO | chewtoy.attachment | Created text channel '#ᓚᘏᗢ°cattos' in testtest3
-2026-09-18 13:09:30,977 | INFO | chewtoy.attachment | Created text channel '#geo' in testtest3
-2026-09-18 13:09:31,916 | INFO | chewtoy.attachment | Created text channel '#lakshay' in testtest3
-2026-09-18 13:09:32,902 | INFO | chewtoy.attachment | Created text channel '#lakshay-worry-channel' in testtest3
-2026-09-18 13:09:33,829 | INFO | chewtoy.attachment | Created text channel '#1-minute' in testtest3
-2026-09-18 13:09:34,748 | INFO | chewtoy.attachment | Created text channel '#kaj' in testtest3
-2026-09-18 13:09:35,759 | INFO | chewtoy.attachment | Created text channel '#raul' in testtest3
-2026-09-18 13:09:36,709 | INFO | chewtoy.attachment | Created text channel '#crveni' in testtest3
-2026-09-18 13:09:37,622 | INFO | chewtoy.attachment | Created text channel '#barret' in testtest3
-2026-09-18 13:09:38,573 | INFO | chewtoy.attachment | Created text channel '#the-hand' in testtest3
-2026-09-18 13:09:39,647 | INFO | chewtoy.attachment | Created text channel '#yumetorium' in testtest3
-2026-09-18 13:09:40,539 | INFO | chewtoy.attachment | Created text channel '#lou' in testtest3
-2026-09-18 13:09:41,511 | INFO | chewtoy.attachment | Created text channel '#backupplanning' in testtest3
-2026-09-18 13:09:42,471 | INFO | chewtoy.attachment | Created text channel '#info' in testtest3
-2026-09-18 13:09:43,391 | INFO | chewtoy.attachment | Created text channel '#vannablooms' in testtest3
-2026-09-18 13:09:44,408 | INFO | chewtoy.attachment | Created text channel '#ᯓ★suggestions' in testtest3
-2026-09-18 13:09:45,363 | INFO | chewtoy.attachment | Created text channel '#𑣲⋆collection' in testtest3
-2026-09-18 13:09:46,295 | INFO | chewtoy.attachment | Created text channel '#˚˖𓍢ִ໋❀°gratitude' in testtest3
-2026-09-18 13:09:47,191 | INFO | chewtoy.attachment | Created text channel '#𖡊°lightbulb' in testtest3
-2026-09-18 13:09:48,077 | INFO | chewtoy.attachment | Created text channel '#server' in testtest3
-2026-09-18 13:09:49,007 | INFO | chewtoy.attachment | Created text channel '#📖align' in testtest3
-2026-09-18 13:09:49,956 | INFO | chewtoy.attachment | Created text channel '#server-archive' in testtest3
-2026-09-18 13:09:51,735 | INFO | chewtoy.attachment | Created text channel '#modlog' in testtest3
-2026-09-18 13:09:52,657 | INFO | chewtoy.attachment | Created text channel '#blisstext' in testtest3
-2026-09-18 13:09:53,695 | INFO | chewtoy.attachment | Created forum channel '#geoforum' in testtest3
-2026-09-18 13:09:54,569 | INFO | chewtoy.attachment | Created forum channel '#forum-of-various' in testtest3
-2026-09-18 13:09:55,472 | INFO | chewtoy.attachment | Created forum channel '#geos-test-to-do-list-forum-channel' in testtest3
-2026-09-18 13:09:56,524 | INFO | chewtoy.attachment | Created thread/post 'Yyn' under #lakshay (1/85)
-2026-09-18 13:09:58,298 | INFO | chewtoy.attachment | Created thread/post 'Talk to God' under #lakshay (2/85)
-2026-09-18 13:09:59,981 | INFO | chewtoy.attachment | Created thread/post 'Emoji's!' under #lakshay (3/85)
-2026-09-18 13:10:01,914 | INFO | chewtoy.attachment | Created thread/post 'Anything goes' under #lakshay (4/85)
-2026-09-18 13:10:03,479 | INFO | chewtoy.attachment | Created thread/post 'I'll do it here' under #geo (5/85)
-2026-09-18 13:10:05,300 | INFO | chewtoy.attachment | Created thread/post 'Ok I can do it here' under #geo (6/85)
-2026-09-18 13:10:07,369 | INFO | chewtoy.attachment | Created thread/post 'DND channel contemplation' under #server (7/85)
-2026-09-18 13:10:09,096 | INFO | chewtoy.attachment | Created thread/post '𑣲⋆collection' under #forum-of-various (8/85)
-2026-09-18 13:10:11,682 | INFO | chewtoy.attachment | Created thread/post '𖡊°lightbulb' under #forum-of-various (9/85)
-2026-09-18 13:10:13,507 | INFO | chewtoy.attachment | Created thread/post 'Todo list' under #forum-of-various (10/85)
-2026-09-18 13:10:15,012 | INFO | chewtoy.attachment | Created thread/post 'Jesus AI' under #memes (11/85)
-2026-09-18 13:10:16,611 | INFO | chewtoy.attachment | Created thread/post 'test' under #general (12/85)
-2026-09-18 13:10:19,424 | INFO | chewtoy.attachment | Created thread/post 'monke' under #memes (13/85)
-2026-09-18 13:10:21,025 | INFO | chewtoy.attachment | Created thread/post 'classics' under #memes (14/85)
-2026-09-18 13:10:22,542 | INFO | chewtoy.attachment | Created thread/post 'xingxing' under #memes (15/85)
-2026-09-18 13:10:24,574 | INFO | chewtoy.attachment | Created thread/post 'rando' under #memes (16/85)
-2026-09-18 13:10:26,282 | INFO | chewtoy.attachment | Created thread/post 'bill' under #memes (17/85)
-2026-09-18 13:10:27,895 | INFO | chewtoy.attachment | Created thread/post 'spiritual practice  thread' under #geo (18/85)
-2026-09-18 13:10:30,405 | INFO | chewtoy.attachment | Created thread/post 'Jesus Christ' under #geo (19/85)
-2026-09-18 13:10:32,000 | INFO | chewtoy.attachment | Created thread/post 'Spiritual practice thread' under #geo (20/85)
-2026-09-18 13:10:33,803 | INFO | chewtoy.attachment | Created thread/post 'spiritual practice  thread' under #geo (21/85)
-2026-09-18 13:10:36,273 | INFO | chewtoy.attachment | Created thread/post 'spam links to share with yall' under #geo (22/85)
-2026-09-18 13:10:37,879 | INFO | chewtoy.attachment | Created thread/post 'spiritual practice  thread' under #geo (23/85)
-2026-09-18 13:10:39,415 | INFO | chewtoy.attachment | Created thread/post 'Pretend to have no memory' under #lakshay (24/85)
-2026-09-18 13:10:41,424 | INFO | chewtoy.attachment | Created thread/post 'Oommmmm' under #lakshay (25/85)
-2026-09-18 13:10:43,143 | INFO | chewtoy.attachment | Created thread/post 'Vent' under #lakshay (26/85)
-2026-09-18 13:10:44,701 | INFO | chewtoy.attachment | Created thread/post 'God I ask for the knowledge of thy will' under #lakshay (27/85)
-2026-09-18 13:10:47,171 | INFO | chewtoy.attachment | Created thread/post 'What for?' under #lakshay (28/85)
-2026-09-18 13:10:48,682 | INFO | chewtoy.attachment | Created thread/post 'Express / release farts and poo of' under #lakshay (29/85)
-2026-09-18 13:10:50,325 | INFO | chewtoy.attachment | Created thread/post 'Forgiveness robocop' under #lakshay (30/85)
-2026-09-18 13:10:52,209 | INFO | chewtoy.attachment | Created thread/post 'Allow Ego to speak' under #lakshay (31/85)
-2026-09-18 13:10:53,765 | INFO | chewtoy.attachment | Created thread/post 'Goal : 90% of mother of all torrents by' under #lakshay (32/85)
-2026-09-18 13:10:55,416 | INFO | chewtoy.attachment | Created thread/post 'acim' under #lakshay (33/85)
-2026-09-18 13:10:57,445 | INFO | chewtoy.attachment | Created thread/post 'What is held in mind tends to manifest' under #lakshay (34/85)
-2026-09-18 13:10:59,279 | INFO | chewtoy.attachment | Created thread/post 'Chanting' under #lakshay (35/85)
-2026-09-18 13:11:01,059 | INFO | chewtoy.attachment | Created thread/post 'Contemplating' under #lakshay (36/85)
-2026-09-18 13:11:02,909 | INFO | chewtoy.attachment | Created thread/post 'In the Background of silence' under #lakshay (37/85)
-2026-09-18 13:11:04,539 | INFO | chewtoy.attachment | Created thread/post 'Prayers' under #lakshay (38/85)
-2026-09-18 13:11:06,097 | INFO | chewtoy.attachment | Created thread/post 'Gratitude' under #lakshay (39/85)
-2026-09-18 13:11:08,026 | INFO | chewtoy.attachment | Created thread/post 'hawkins tv / hawkins radio' under #lakshay (40/85)
-2026-09-18 13:11:09,789 | INFO | chewtoy.attachment | Created thread/post '12 steps' under #lakshay (41/85)
-2026-09-18 13:11:11,326 | INFO | chewtoy.attachment | Created thread/post 'map of consciousness' under #lakshay (42/85)
-2026-09-18 13:11:13,364 | INFO | chewtoy.attachment | Created thread/post 'Presence of God , Truth' under #lakshay (43/85)
-2026-09-18 13:11:14,911 | INFO | chewtoy.attachment | Created thread/post 'Between now and now there is no problem' under #lakshay (44/85)
-2026-09-18 13:11:16,548 | INFO | chewtoy.attachment | Created thread/post 'forgiveness' under #lakshay (45/85)
-2026-09-18 13:11:18,549 | INFO | chewtoy.attachment | Created thread/post 'susan , docflock , archive org , google' under #lakshay (46/85)
-2026-09-18 13:11:20,347 | INFO | chewtoy.attachment | Created thread/post 'the Seeing of the beauty  of everything' under #lakshay (47/85)
-2026-09-18 13:11:21,883 | INFO | chewtoy.attachment | Created thread/post 'Identify with the field' under #lakshay (48/85)
-2026-09-18 13:11:23,705 | INFO | chewtoy.attachment | Created thread/post 'abc is abc' under #lakshay (49/85)
-2026-09-18 13:14:56,402 | INFO | chewtoy.attachment | Created thread/post 'decline the negative' under #lakshay (50/85)
-2026-09-18 13:14:58,297 | INFO | chewtoy.attachment | Created thread/post 'Focus on now' under #lakshay (51/85)
-2026-09-18 13:15:01,050 | INFO | chewtoy.attachment | Created thread/post 'Important passages' under #lakshay (52/85)
-2026-09-18 13:15:02,687 | INFO | chewtoy.attachment | Created thread/post 'Pretend one has no memory' under #lakshay (53/85)
-2026-09-18 13:15:04,195 | INFO | chewtoy.attachment | Created thread/post 'More more more Drama' under #lakshay (54/85)
-2026-09-18 13:15:06,107 | INFO | chewtoy.attachment | Created thread/post 'Anger toilet 💩  🚽' under #lakshay (55/85)
-2026-09-18 13:15:07,635 | INFO | chewtoy.attachment | Created thread/post 'Meditation' under #lakshay (56/85)
-2026-09-18 13:15:09,710 | INFO | chewtoy.attachment | Created thread/post 'Contemplating Death of the body' under #lakshay (57/85)
-2026-09-18 13:15:12,319 | INFO | chewtoy.attachment | Created thread/post 'All in one' under #lakshay (58/85)
-2026-09-18 13:15:14,118 | INFO | chewtoy.attachment | Created thread/post 'Let ego speak spiritual practice' under #lakshay (59/85)
-2026-09-18 13:15:15,670 | INFO | chewtoy.attachment | Created thread/post 'No pronouns!' under #lakshay (60/85)
-2026-09-18 13:15:17,551 | INFO | chewtoy.attachment | Created thread/post 'letting go of guilt and 4h trip like doc' under #lakshay (61/85)
-2026-09-18 13:15:19,199 | INFO | chewtoy.attachment | Created thread/post 'Thread' under #lakshay (62/85)
-2026-09-18 13:15:20,776 | INFO | chewtoy.attachment | Created thread/post 'There is no other,  the Self is the only' under #lakshay (63/85)
-2026-09-18 13:15:22,757 | INFO | chewtoy.attachment | Created thread/post 'Ask More more more - Healing  context' under #lakshay (64/85)
-2026-09-18 13:15:24,590 | INFO | chewtoy.attachment | Created thread/post 'Gratitude practice' under #lakshay (65/85)
-2026-09-18 13:15:26,099 | INFO | chewtoy.attachment | Created thread/post 'Nuke-thread' under #lakshay (66/85)
-2026-09-18 13:15:28,155 | INFO | chewtoy.attachment | Created thread/post 'Progress update :' under #backupplanning (67/85)
-2026-09-18 13:15:29,831 | INFO | chewtoy.attachment | Created thread/post 'Veritas' under #server (68/85)
-2026-09-18 13:15:31,701 | INFO | chewtoy.attachment | Created thread/post 'Rules' under #server (69/85)
-2026-09-18 13:15:33,693 | INFO | chewtoy.attachment | Created thread/post 'docsheet' under #geoforum (70/85)
-2026-09-18 13:15:35,329 | INFO | chewtoy.attachment | Created thread/post 'Fake Chan Factory' under #geoforum (71/85)
-2026-09-18 13:15:36,858 | INFO | chewtoy.attachment | Created thread/post 'scoreboard' under #geoforum (72/85)
-2026-09-18 13:15:38,726 | INFO | chewtoy.attachment | Created thread/post 'secondbarnone' under #geoforum (73/85)
-2026-09-18 13:15:40,255 | INFO | chewtoy.attachment | Created thread/post 'Voretech' under #geoforum (74/85)
-2026-09-18 13:15:42,015 | INFO | chewtoy.attachment | Created thread/post 'Godot game' under #geoforum (75/85)
-2026-09-18 13:15:46,191 | INFO | chewtoy.attachment | Created thread/post 'book-bot' under #geoforum (76/85)
-2026-09-18 13:15:47,724 | INFO | chewtoy.attachment | Created thread/post 'minimize list' under #geoforum (77/85)
-2026-09-18 13:15:49,245 | INFO | chewtoy.attachment | Created thread/post 'gaming' under #geoforum (78/85)
-2026-09-18 13:15:51,287 | INFO | chewtoy.attachment | Created thread/post 'lesezeichen' under #geoforum (79/85)
-2026-09-18 13:15:52,836 | INFO | chewtoy.attachment | Created thread/post '☼ᨒ•practice-suggestions' under #forum-of-various (80/85)
-2026-09-18 13:15:54,905 | INFO | chewtoy.attachment | Created thread/post 'ᯓ★suggestions' under #forum-of-various (81/85)
-2026-09-18 13:15:56,709 | INFO | chewtoy.attachment | Created thread/post '˚˖𓍢ִ໋❀°gratitude' under #forum-of-various (82/85)
-2026-09-18 13:15:58,214 | INFO | chewtoy.attachment | Created thread/post 'laptop burning' under #geos-test-to-do-list-forum-channel (83/85)
-2026-09-18 13:15:59,831 | INFO | chewtoy.attachment | Created thread/post 'High prio test' under #geos-test-to-do-list-forum-channel (84/85)
-2026-09-18 13:16:01,897 | INFO | chewtoy.attachment | Created thread/post 'play wordle today' under #geos-test-to-do-list-forum-channel (85/85)
-2026-09-18 13:38:22,298 | INFO | discord.gateway | Shard ID None has successfully RESUMED session 4406fb01fb993b273991192f0a6c7030.
-2026-09-18 14:26:10,775 | INFO | chewtoy.attachment.migration | Started migration session session_2026_09_18_12_25_36_82ccee.txt: yyn -> testtest3
-2026-09-18 14:26:10,776 | INFO | chewtoy.attachment.migration | Webhook warmup starting for 53 parent channel(s) (delay=1.00s)
-2026-09-18 14:27:43,356 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463872358551554/webhooks responded with 429. Retrying in 52.11 seconds.
-2026-09-18 14:28:37,563 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463880520802396/webhooks responded with 429. Retrying in 69.91 seconds.
-2026-09-18 14:29:47,800 | INFO | chewtoy.attachment.migration | Webhook warmup done: created 53, reused 0, failed 0, elapsed 217023 ms
-2026-09-18 14:29:48,371 | INFO | chewtoy.attachment.migration | Migrated 'hawkins🪓🪓' -> 'hawkins🪓🪓' (1531390827623092315) (0 msgs)
-2026-09-18 14:29:48,465 | INFO | chewtoy.attachment.migration | Migrated 'daily-reflections❓' -> 'daily-reflections❓' (1531390909554495558) (0 msgs)
-2026-09-18 14:29:48,493 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-quotes🪓🪓' -> 'hawkins-quotes🪓🪓' (1531390879691182281) (0 msgs)
-2026-09-18 14:29:48,652 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-videos🪓🪓' -> 'hawkins-videos🪓🪓' (1531390847235522682) (0 msgs)
-2026-09-18 14:29:48,875 | INFO | chewtoy.attachment.migration | Migrated 'calibrations🗿' -> 'calibrations🗿' (1531390968174088252) (0 msgs)
-2026-09-18 14:29:49,075 | INFO | chewtoy.attachment.migration | Migrated 'calibration-discussions🗿' -> 'calibration-discussions🗿' (1531391015502614599) (0 msgs)
-2026-09-18 14:29:49,310 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-archive🗿' -> 'hawkins-archive🗿' (1531391117428391957) (0 msgs)
-2026-09-18 14:29:49,625 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-videos-2🗿' -> 'hawkins-videos-2🗿' (1531391130212503845) (0 msgs)
-2026-09-18 14:29:49,652 | INFO | chewtoy.attachment.migration | Migrated 'personal-calibrations🪓' -> 'personal-calibrations🪓' (1531391028555415724) (0 msgs)
-2026-09-18 14:29:49,689 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-quotes-2🗿' -> 'hawkins-quotes-2🗿' (1531391143378555110) (0 msgs)
-2026-09-18 14:29:49,881 | INFO | chewtoy.attachment.migration | Migrated 'barret-of-slides❓' -> 'barret-of-slides❓' (1531391156418777128) (0 msgs)
-2026-09-18 14:29:50,181 | INFO | chewtoy.attachment.migration | Migrated 'doc-bot🗿' -> 'doc-bot🗿' (1531391168808485076) (0 msgs)
-2026-09-18 14:29:50,292 | INFO | chewtoy.attachment.migration | Migrated 'the-spiritual-essentials🗿' -> 'the-spiritual-essentials🗿' (1531391179898228898) (0 msgs)
-2026-09-18 14:29:50,460 | INFO | chewtoy.attachment.migration | Migrated 'library❓' -> 'library❓' (1531391192892440746) (0 msgs)
-2026-09-18 14:29:50,479 | INFO | chewtoy.attachment.migration | Migrated 'hawkins' -> 'hawkins' (1531395333752488026) (0 msgs)
-2026-09-18 14:29:50,838 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-videos' -> 'hawkins-videos' (1531395385577181235) (0 msgs)
-2026-09-18 14:29:50,894 | INFO | chewtoy.attachment.migration | Migrated 'hawkins-quotes' -> 'hawkins-quotes' (1531395441902616616) (0 msgs)
-2026-09-18 14:29:51,087 | INFO | chewtoy.attachment.migration | Migrated 'barret-of-slides❓' -> 'barret-of-slides❓' (1531396492949196981) (0 msgs)
-2026-09-18 14:29:51,191 | INFO | chewtoy.attachment.migration | Migrated 'daily-reflections❓' -> 'daily-reflections❓' (1531396516697079828) (0 msgs)
-2026-09-18 14:29:51,560 | INFO | chewtoy.attachment.migration | Migrated 'calibration-discussions' -> 'calibration-discussions' (1531395520805994657) (0 msgs)
-2026-09-18 14:29:51,808 | INFO | chewtoy.attachment.migration | Migrated 'the-spiritual-essentials' -> 'the-spiritual-essentials' (1531395770031411405) (0 msgs)
-2026-09-18 14:29:51,821 | INFO | chewtoy.attachment.migration | Migrated 'doc-bot' -> 'doc-bot' (1531395748539662546) (0 msgs)
-2026-09-18 14:29:52,079 | INFO | chewtoy.attachment.migration | Migrated 'calibrations' -> 'calibrations' (1531395487452762192) (0 msgs)
-2026-09-18 14:29:52,164 | INFO | chewtoy.attachment.migration | Migrated 'library❓' -> 'library❓' (1531556472004149298) (0 msgs)
-2026-09-18 14:29:52,785 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'memes' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
-2026-09-18 14:29:53,562 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'general' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
-2026-09-18 14:30:01,090 | INFO | chewtoy.attachment.migration | Migrated 'memes' -> 'memes' (1525433374376722473) (1 msgs)
-2026-09-18 14:30:03,250 | INFO | chewtoy.attachment.migration | Migrated 'to-do-masterlist' -> 'to-do-masterlist' (1529837755155353630) (7 msgs)
-2026-09-18 14:30:15,894 | INFO | chewtoy.attachment.migration | Migrated 'test' -> 'test' (1528348275009392670) (15 msgs)
-2026-09-18 14:30:16,856 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'geo' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
-2026-09-18 14:30:34,353 | INFO | chewtoy.attachment.migration | Migrated 'geo' -> 'geo' (1506612771176054804) (8 msgs)
-2026-09-18 14:30:36,456 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'lakshay' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
-2026-09-18 14:33:48,619 | INFO | chewtoy.attachment.migration | Migrated 'lakshay' -> 'lakshay' (1500784790801223710) (90 msgs)
-2026-09-18 14:33:51,555 | INFO | chewtoy.attachment.migration | Migrated 'lakshay-worry-channel' -> 'lakshay-worry-channel' (1542048353154502706) (1 msgs)
-2026-09-18 14:33:54,188 | INFO | chewtoy.attachment.migration | Migrated '1-minute' -> '1-minute' (1548436226489720872) (1 msgs)
-2026-09-18 14:35:31,671 | WARNING | chewtoy.attachment.migration | Migration session session_2026_09_18_12_25_36_82ccee.txt was cancelled
-2026-09-18 14:35:41,662 | INFO | chewtoy.attachment | Cancelled migrate operation: guild 1489236876736069662, channel None, source None, target 1550463181602947113, scanned 0, cursor None.
-2026-09-18 14:38:05,834 | INFO | chewtoy.attachment.migration | Resuming migration from session_2026_09_18_12_25_36_82ccee.txt for guild yyn
-2026-09-18 14:38:23,043 | INFO | chewtoy.attachment.migration | Webhook warmup starting for 53 parent channel(s) (delay=1.00s)
-2026-09-18 14:38:27,188 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463659137044574/webhooks responded with 429. Retrying in 56.27 seconds.
-2026-09-18 14:39:25,630 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463722298941590/webhooks responded with 429. Retrying in 69.82 seconds.
-2026-09-18 14:40:37,764 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463667269673050/webhooks responded with 429. Retrying in 69.71 seconds.
-2026-09-18 14:41:49,739 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463671392673852/webhooks responded with 429. Retrying in 69.72 seconds.
-2026-09-18 14:43:01,395 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463675553415248/webhooks responded with 429. Retrying in 70.05 seconds.
-2026-09-18 14:44:13,481 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463681186504775/webhooks responded with 429. Retrying in 69.98 seconds.
-2026-09-18 14:45:25,613 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463685275811881/webhooks responded with 429. Retrying in 69.87 seconds.
-2026-09-18 14:46:40,056 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463690493657148/webhooks responded with 429. Retrying in 67.42 seconds.
-2026-09-18 14:47:49,557 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463726182727760/webhooks responded with 429. Retrying in 69.93 seconds.
-2026-09-18 14:49:01,545 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463699012292639/webhooks responded with 429. Retrying in 69.94 seconds.
-2026-09-18 14:50:13,478 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463702816399440/webhooks responded with 429. Retrying in 69.97 seconds.
-2026-09-18 14:51:25,721 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463745480855552/webhooks responded with 429. Retrying in 69.72 seconds.
-2026-09-18 14:52:37,761 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463710215012422/webhooks responded with 429. Retrying in 69.74 seconds.
-2026-09-18 14:53:49,638 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463714203934771/webhooks responded with 429. Retrying in 69.84 seconds.
-2026-09-18 14:55:01,567 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463718285123584/webhooks responded with 429. Retrying in 69.86 seconds.
-2026-09-18 14:56:13,580 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463730259726346/webhooks responded with 429. Retrying in 69.86 seconds.
-2026-09-18 14:57:25,395 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463733845987400/webhooks responded with 429. Retrying in 70.04 seconds.
-2026-09-18 14:58:37,944 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463737906073701/webhooks responded with 429. Retrying in 69.48 seconds.
+2026-09-18 19:00:32,494 | WARNING | discord.client | PyNaCl is not installed, voice will NOT be supported
+2026-09-18 19:00:32,494 | WARNING | discord.client | davey is not installed, voice will NOT be supported
+2026-09-18 19:00:32,495 | INFO | discord.client | logging in using static token
+2026-09-18 19:00:33,256 | INFO | chewtoy | Loaded extension: cogs.devtools
+2026-09-18 19:00:33,276 | INFO | chewtoy | Loaded extension: cogs.purge
+2026-09-18 19:00:33,282 | INFO | chewtoy | Loaded extension: cogs.spamtyper
+2026-09-18 19:00:33,292 | INFO | chewtoy | Loaded extension: cogs.webhooker
+2026-09-18 19:00:33,298 | INFO | chewtoy | Loaded extension: cogs.practicerater
+2026-09-18 19:00:33,390 | INFO | chewtoy | Loaded extension: cogs.attachment
+2026-09-18 19:00:33,392 | INFO | chewtoy | Loaded extension: cogs.migration_audit
+2026-09-18 19:00:33,394 | INFO | chewtoy | Loaded extension: cogs.structure
+2026-09-18 19:00:33,395 | INFO | chewtoy | Loaded extension: cogs.members
+2026-09-18 19:00:33,398 | INFO | chewtoy | Loaded extension: cogs.status
+2026-09-18 19:00:33,403 | INFO | chewtoy | Loaded extension: cogs.migrationfeed
+2026-09-18 19:00:33,403 | INFO | chewtoy | SIGTERM now shuts the bot down gracefully
+2026-09-18 19:00:34,186 | INFO | discord.gateway | Shard ID None has connected to Gateway (Session ID: bc647da953ad585bc2915b22c7647f92).
+2026-09-18 19:00:36,841 | INFO | chewtoy | Logged in as GeoAI#2916 (ID: 1527644483414523994)
+2026-09-18 19:00:36,841 | INFO | chewtoy | Connected to 6 guild(s)
+2026-09-18 19:00:36,842 | INFO | chewtoy | Active Cogs: DevTools, Purge, SpamTyper, Webhooker, PracticeRater, Attachment, MigrationAudit, Structure, Members, Status, MigrationFeed
+2026-09-18 19:00:37,146 | INFO | chewtoy | Synced 19 app command(s) to guild 1194598173742731284.
+2026-09-18 19:00:37,380 | INFO | chewtoy | Synced 19 app command(s) to guild 1489236876736069662.
+2026-09-18 19:00:37,674 | INFO | chewtoy | Synced 19 app command(s) to guild 1529959386599129098.
+2026-09-18 19:00:37,905 | INFO | chewtoy | Synced 19 app command(s) to guild 1531573167015985283.
+2026-09-18 19:00:38,159 | INFO | chewtoy | Synced 19 app command(s) to guild 1546831373451526164.
+2026-09-18 19:00:38,673 | INFO | chewtoy | Synced 19 app command(s) to guild 1550463181602947113.
+2026-09-18 19:01:18,218 | INFO | chewtoy.attachment.migration | Resuming migration from session_2026_09_18_12_25_36_82ccee.txt for guild yyn
+2026-09-18 19:01:33,129 | INFO | chewtoy.attachment.migration | Webhook warmup starting for 53 parent channel(s) (delay=1.00s)
+2026-09-18 19:03:04,601 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463872358551554/webhooks responded with 429. Retrying in 53.12 seconds.
+2026-09-18 19:03:59,796 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463880520802396/webhooks responded with 429. Retrying in 69.91 seconds.
+2026-09-18 19:05:14,158 | INFO | chewtoy.attachment.migration | Webhook warmup done: created 53, reused 0, failed 0, elapsed 221028 ms
+2026-09-18 19:05:14,683 | INFO | chewtoy.attachment.migration | Resumed 'hawkins🪓🪓' -> 'hawkins🪓🪓' (1531390827623092315) (+0 msgs, total: 0)
+2026-09-18 19:05:14,867 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes🪓🪓' -> 'hawkins-quotes🪓🪓' (1531390879691182281) (+0 msgs, total: 0)
+2026-09-18 19:05:14,917 | INFO | chewtoy.attachment.migration | Resumed 'daily-reflections❓' -> 'daily-reflections❓' (1531390909554495558) (+0 msgs, total: 0)
+2026-09-18 19:05:14,961 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos🪓🪓' -> 'hawkins-videos🪓🪓' (1531390847235522682) (+0 msgs, total: 0)
+2026-09-18 19:05:15,330 | INFO | chewtoy.attachment.migration | Resumed 'calibrations🗿' -> 'calibrations🗿' (1531390968174088252) (+0 msgs, total: 0)
+2026-09-18 19:05:15,480 | INFO | chewtoy.attachment.migration | Resumed 'calibration-discussions🗿' -> 'calibration-discussions🗿' (1531391015502614599) (+0 msgs, total: 0)
+2026-09-18 19:05:15,586 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-archive🗿' -> 'hawkins-archive🗿' (1531391117428391957) (+0 msgs, total: 0)
+2026-09-18 19:05:16,093 | INFO | chewtoy.attachment.migration | Resumed 'personal-calibrations🪓' -> 'personal-calibrations🪓' (1531391028555415724) (+0 msgs, total: 0)
+2026-09-18 19:05:16,289 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos-2🗿' -> 'hawkins-videos-2🗿' (1531391130212503845) (+0 msgs, total: 0)
+2026-09-18 19:05:16,292 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes-2🗿' -> 'hawkins-quotes-2🗿' (1531391143378555110) (+0 msgs, total: 0)
+2026-09-18 19:05:16,311 | INFO | chewtoy.attachment.migration | Resumed 'barret-of-slides❓' -> 'barret-of-slides❓' (1531391156418777128) (+0 msgs, total: 0)
+2026-09-18 19:05:16,834 | INFO | chewtoy.attachment.migration | Resumed 'library❓' -> 'library❓' (1531391192892440746) (+0 msgs, total: 0)
+2026-09-18 19:05:16,897 | INFO | chewtoy.attachment.migration | Resumed 'the-spiritual-essentials🗿' -> 'the-spiritual-essentials🗿' (1531391179898228898) (+0 msgs, total: 0)
+2026-09-18 19:05:16,995 | INFO | chewtoy.attachment.migration | Resumed 'doc-bot🗿' -> 'doc-bot🗿' (1531391168808485076) (+0 msgs, total: 0)
+2026-09-18 19:05:17,015 | INFO | chewtoy.attachment.migration | Resumed 'hawkins' -> 'hawkins' (1531395333752488026) (+0 msgs, total: 0)
+2026-09-18 19:05:17,636 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes' -> 'hawkins-quotes' (1531395441902616616) (+0 msgs, total: 0)
+2026-09-18 19:05:17,880 | INFO | chewtoy.attachment.migration | Resumed 'barret-of-slides❓' -> 'barret-of-slides❓' (1531396492949196981) (+0 msgs, total: 0)
+2026-09-18 19:05:17,883 | INFO | chewtoy.attachment.migration | Resumed 'daily-reflections❓' -> 'daily-reflections❓' (1531396516697079828) (+0 msgs, total: 0)
+2026-09-18 19:05:18,515 | INFO | chewtoy.attachment.migration | Resumed 'calibrations' -> 'calibrations' (1531395487452762192) (+0 msgs, total: 0)
+2026-09-18 19:05:18,641 | INFO | chewtoy.attachment.migration | Resumed 'doc-bot' -> 'doc-bot' (1531395748539662546) (+0 msgs, total: 0)
+2026-09-18 19:05:18,758 | INFO | chewtoy.attachment.migration | Resumed 'calibration-discussions' -> 'calibration-discussions' (1531395520805994657) (+0 msgs, total: 0)
+2026-09-18 19:05:18,869 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos' -> 'hawkins-videos' (1531395385577181235) (+0 msgs, total: 0)
+2026-09-18 19:05:19,191 | INFO | chewtoy.attachment.migration | Resumed 'general' -> 'general' (1508770219097591890) (+0 msgs, total: 0)
+2026-09-18 19:05:19,298 | INFO | chewtoy.attachment.migration | Resumed 'to-do-masterlist' -> 'to-do-masterlist' (1529837755155353630) (+0 msgs, total: 0)
+2026-09-18 19:05:19,421 | INFO | chewtoy.attachment.migration | Resumed 'the-spiritual-essentials' -> 'the-spiritual-essentials' (1531395770031411405) (+0 msgs, total: 0)
+2026-09-18 19:05:19,509 | INFO | chewtoy.attachment.migration | Resumed 'library❓' -> 'library❓' (1531556472004149298) (+0 msgs, total: 0)
+2026-09-18 19:05:19,783 | INFO | chewtoy.attachment.migration | Resumed 'memes' -> 'memes' (1525433374376722473) (+0 msgs, total: 0)
+2026-09-18 19:05:19,905 | INFO | chewtoy.attachment.migration | Resumed '「✦welcome✦」' -> '「✦welcome✦」' (1489236972269604974) (+0 msgs, total: 0)
+2026-09-18 19:05:19,979 | INFO | chewtoy.attachment.migration | Resumed 'ᓚᘏᗢ°cattos' -> 'ᓚᘏᗢ°cattos' (1500262075421687859) (+0 msgs, total: 0)
+2026-09-18 19:05:20,248 | INFO | chewtoy.attachment.migration | Resumed 'lakshay' -> 'lakshay' (1500784790801223710) (+0 msgs, total: 0)
+2026-09-18 19:05:20,291 | INFO | chewtoy.attachment.migration | Resumed 'lakshay-worry-channel' -> 'lakshay-worry-channel' (1542048353154502706) (+0 msgs, total: 0)
+2026-09-18 19:05:20,504 | INFO | chewtoy.attachment.migration | Resumed '1-minute' -> '1-minute' (1548436226489720872) (+0 msgs, total: 0)
+2026-09-18 19:05:20,647 | INFO | chewtoy.attachment.migration | Resumed 'kaj' -> 'kaj' (1504508719625535509) (+0 msgs, total: 0)
+2026-09-18 19:05:21,090 | INFO | chewtoy.attachment.migration | Resumed 'crveni' -> 'crveni' (1505955190564585602) (+0 msgs, total: 0)
+2026-09-18 19:05:21,399 | INFO | chewtoy.attachment.migration | Resumed 'barret' -> 'barret' (1539410919656919120) (+0 msgs, total: 0)
+2026-09-18 19:05:21,679 | INFO | chewtoy.attachment.migration | Resumed 'the-hand' -> 'the-hand' (1531716159995510944) (+0 msgs, total: 0)
+2026-09-18 19:05:21,986 | INFO | chewtoy.attachment.migration | Resumed 'yumetorium' -> 'yumetorium' (1547906046964535297) (+0 msgs, total: 0)
+2026-09-18 19:05:23,509 | INFO | chewtoy.attachment.migration | Resumed 'lou' -> 'lou' (1505513374912348180) (+1 msgs, total: 1)
+2026-09-18 19:05:36,670 | INFO | chewtoy.attachment.migration | Resumed 'test' -> 'test' (1528348275009392670) (+12 msgs, total: 13)
+2026-09-18 19:05:37,046 | INFO | chewtoy.attachment.migration | Resumed 'info' -> 'info' (1542820070860787783) (+0 msgs, total: 13)
+2026-09-18 19:05:37,284 | INFO | chewtoy.attachment.migration | Resumed 'vannablooms' -> 'vannablooms' (1497893722933952745) (+0 msgs, total: 13)
+2026-09-18 19:05:37,531 | INFO | chewtoy.attachment.migration | Resumed 'ᯓ★suggestions' -> 'ᯓ★suggestions' (1499396736274403411) (+0 msgs, total: 13)
+2026-09-18 19:05:37,912 | INFO | chewtoy.attachment.migration | Resumed '𑣲⋆collection' -> '𑣲⋆collection' (1491160489898807307) (+0 msgs, total: 13)
+2026-09-18 19:05:38,278 | INFO | chewtoy.attachment.migration | Resumed '˚˖𓍢ִ໋❀°gratitude' -> '˚˖𓍢ִ໋❀°gratitude' (1499705777848586360) (+0 msgs, total: 13)
+2026-09-18 19:05:38,588 | INFO | chewtoy.attachment.migration | Resumed '𖡊°lightbulb' -> '𖡊°lightbulb' (1502622464104988752) (+0 msgs, total: 13)
+2026-09-18 19:05:38,802 | INFO | chewtoy.attachment.migration | Resumed 'server' -> 'server' (1515298169599168593) (+0 msgs, total: 13)
+2026-09-18 19:05:39,067 | INFO | chewtoy.attachment.migration | Resumed '📖align' -> '📖align' (1528050373477007421) (+0 msgs, total: 13)
+2026-09-18 19:05:39,311 | INFO | chewtoy.attachment.migration | Resumed 'server-archive' -> 'server-archive' (1515376780666736660) (+0 msgs, total: 13)
+2026-09-18 19:06:27,866 | INFO | chewtoy.attachment.migration | Resumed 'geo' -> 'geo' (1506612771176054804) (+39 msgs, total: 52)
+2026-09-18 19:06:28,235 | INFO | chewtoy.attachment.migration | Resumed 'blisstext' -> 'blisstext' (1526646831101120512) (+0 msgs, total: 52)
+2026-09-18 19:06:28,524 | INFO | chewtoy.attachment.migration | Resumed 'Yyn' -> 'Yyn' (1520492803367632918) (+0 msgs, total: 52)
+2026-09-18 19:06:28,817 | INFO | chewtoy.attachment.migration | Resumed 'Talk to God' -> 'Talk to God' (1520493321963835443) (+0 msgs, total: 52)
+2026-09-18 19:06:37,692 | INFO | chewtoy.attachment.migration | Resumed 'Emoji's!' -> 'Emoji's!' (1525064106611183766) (+5 msgs, total: 57)
+2026-09-18 19:06:38,379 | INFO | chewtoy.attachment.migration | Resumed 'Anything goes' -> 'Anything goes' (1543834385235709963) (+0 msgs, total: 57)
+2026-09-18 19:06:39,106 | INFO | chewtoy.attachment.migration | Resumed 'I'll do it here' -> 'I'll do it here' (1544030228991443064) (+0 msgs, total: 57)
+2026-09-18 19:06:39,422 | INFO | chewtoy.attachment.migration | Resumed 'Ok I can do it here' -> 'Ok I can do it here' (1544030432352542791) (+0 msgs, total: 57)
+2026-09-18 19:06:39,677 | INFO | chewtoy.attachment.migration | Resumed 'DND channel contemplation' -> 'DND channel contemplation' (1528064370687479969) (+0 msgs, total: 57)
+2026-09-18 19:06:40,087 | INFO | chewtoy.attachment.migration | Resumed '𑣲⋆collection' -> '𑣲⋆collection' (1516027390004953220) (+0 msgs, total: 57)
+2026-09-18 19:06:40,423 | INFO | chewtoy.attachment.migration | Resumed '𖡊°lightbulb' -> '𖡊°lightbulb' (1516027536239497236) (+0 msgs, total: 57)
+2026-09-18 19:06:40,796 | INFO | chewtoy.attachment.migration | Resumed 'Todo list' -> 'Todo list' (1524424715790450739) (+0 msgs, total: 57)
+2026-09-18 19:06:41,372 | INFO | chewtoy.attachment.migration | Auto-synced 'Jesus AI': resuming after source message 1541498828522258517
+2026-09-18 19:06:43,670 | INFO | chewtoy.attachment.migration | Resumed 'Jesus AI' -> 'Jesus AI' (1541497721393909840) (+0 msgs, total: 57)
+2026-09-18 19:06:44,282 | INFO | chewtoy.attachment.migration | Resumed 'test' -> 'test' (1516701715704053831) (+0 msgs, total: 57)
+2026-09-18 19:06:52,099 | INFO | chewtoy.attachment.migration | Resumed 'monke' -> 'monke' (1525433451346530334) (+6 msgs, total: 63)
+2026-09-18 19:06:52,657 | INFO | chewtoy.attachment.migration | Auto-synced 'classics': resuming after source message 1525438274414575667
+2026-09-18 19:06:54,189 | INFO | chewtoy.attachment.migration | Resumed 'classics' -> 'classics' (1525438107254653039) (+1 msgs, total: 64)
+2026-09-18 19:06:54,452 | INFO | chewtoy.attachment.migration | Resumed 'xingxing' -> 'xingxing' (1525434299107770458) (+0 msgs, total: 64)
+2026-09-18 19:06:55,271 | INFO | chewtoy.attachment.migration | Auto-synced 'rando': resuming after source message 1525434594256621608
+2026-09-18 19:07:04,052 | INFO | chewtoy.attachment.migration | Resumed 'rando' -> 'rando' (1525434544176631829) (+5 msgs, total: 69)
+2026-09-18 19:07:08,946 | INFO | chewtoy.attachment.migration | Resumed 'bill' -> 'bill' (1525433973264748644) (+3 msgs, total: 72)
+2026-09-18 19:07:15,029 | INFO | chewtoy.attachment.migration | Resumed 'spiritual practice  thread' -> 'spiritual practice  thread' (1535600704306155552) (+4 msgs, total: 76)
+2026-09-18 19:07:15,718 | INFO | chewtoy.attachment.migration | Resumed 'raul' -> 'raul' (1491461551511703684) (+78 msgs, total: 154)
+2026-09-18 19:07:26,746 | INFO | chewtoy.attachment.migration | Resumed 'Jesus Christ' -> 'Jesus Christ' (1534492183816568913) (+7 msgs, total: 161)
+2026-09-18 19:07:27,642 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'spiritual practice  thread' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:07:34,335 | INFO | chewtoy.attachment.migration | Resumed 'Spiritual practice thread' -> 'Spiritual practice thread' (1534131543285563452) (+13 msgs, total: 174)
+2026-09-18 19:07:40,142 | INFO | chewtoy.attachment.migration | Resumed 'spam links to share with yall' -> 'spam links to share with yall' (1531062303317823681) (+4 msgs, total: 178)
+2026-09-18 19:07:43,049 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'spiritual practice  thread' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:07:58,501 | INFO | chewtoy.attachment.migration | Resumed 'spiritual practice  thread' -> 'spiritual practice  thread' (1531578103023927356) (+20 msgs, total: 198)
+2026-09-18 19:07:59,097 | INFO | chewtoy.attachment.migration | Resumed 'Pretend to have no memory' -> 'Pretend to have no memory' (1539387838338965585) (+0 msgs, total: 198)
+2026-09-18 19:08:11,732 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:08:13,610 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:08:14,915 | INFO | chewtoy.attachment.migration | Resumed 'Oommmmm' -> 'Oommmmm' (1520493466310676633) (+10 msgs, total: 208)
+2026-09-18 19:08:15,376 | INFO | chewtoy.attachment.migration | Resumed 'Vent' -> 'Vent' (1536084602354008124) (+0 msgs, total: 208)
+2026-09-18 19:08:15,518 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:08:16,133 | INFO | chewtoy.attachment.migration | Resumed 'God I ask for the knowledge of thy will' -> 'God I ask for the knowledge of thy will' (1533554020420026490) (+0 msgs, total: 208)
+2026-09-18 19:08:17,661 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:08:19,746 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:21,820 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:23,841 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:27,608 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:08:27,656 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.63 seconds.
+2026-09-18 19:08:29,730 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:30,025 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:08:31,528 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:08:32,158 | INFO | chewtoy.attachment.migration | Resumed 'What for?' -> 'What for?' (1525032664330141776) (+11 msgs, total: 219)
+2026-09-18 19:08:32,641 | INFO | chewtoy.attachment.migration | Resumed 'Express / release farts and poo of' -> 'Express / release farts and poo of' (1534255149407535216) (+0 msgs, total: 219)
+2026-09-18 19:08:33,544 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:08:34,471 | INFO | chewtoy.attachment.migration | Resumed 'Forgiveness robocop' -> 'Forgiveness robocop' (1534257650013966408) (+1 msgs, total: 220)
+2026-09-18 19:08:35,487 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:08:36,849 | INFO | chewtoy.attachment.migration | Resumed 'Allow Ego to speak' -> 'Allow Ego to speak' (1527417846819459244) (+1 msgs, total: 221)
+2026-09-18 19:08:37,601 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:08:37,797 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:08:39,687 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:08:39,909 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:08:41,705 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:08:41,873 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:08:43,580 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:08:44,123 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:45,635 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:08:46,027 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:47,592 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:08:47,949 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:08:49,543 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:08:49,852 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:08:49,913 | INFO | chewtoy.attachment.migration | Resumed 'Goal : 90% of mother of all torrents by' -> 'Goal : 90% of mother of all torrents by' (1529933263387365427) (+9 msgs, total: 230)
+2026-09-18 19:08:50,528 | INFO | chewtoy.attachment.migration | Resumed 'acim' -> 'acim' (1527072885238136852) (+0 msgs, total: 230)
+2026-09-18 19:08:51,522 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:08:51,931 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:08:53,894 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:08:54,510 | INFO | chewtoy.attachment.migration | Resumed 'What is held in mind tends to manifest' -> 'What is held in mind tends to manifest' (1520506039039164668) (+2 msgs, total: 232)
+2026-09-18 19:08:55,688 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:08:55,753 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:08:57,712 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:08:57,900 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:08:59,525 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:08:59,848 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:09:01,569 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:09:01,896 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:09:03,814 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:09:03,819 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:09:05,533 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:09:05,833 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:09:06,221 | INFO | chewtoy.attachment.migration | Resumed 'Chanting' -> 'Chanting' (1520512616022282462) (+8 msgs, total: 240)
+2026-09-18 19:09:07,486 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.56 seconds.
+2026-09-18 19:09:07,819 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:09:08,579 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:09:09,589 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:09:09,861 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:09:11,617 | WARNING | discord.webhook.async_ | Webhook ID 1550552734124740708 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:09:12,175 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:09:12,591 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:09:13,328 | INFO | chewtoy.attachment.migration | User cancel: keeping 53 webhook(s) created this run — the next run reuses them
+2026-09-18 19:09:13,329 | INFO | chewtoy.attachment | Cancelled resumemigrate operation: guild 1489236876736069662, channel None, source None, target 1550463181602947113, scanned 0, cursor None.
+2026-09-18 19:10:07,432 | INFO | chewtoy.attachment.migration | Resuming migration from session_2026_09_18_12_25_36_82ccee.txt for guild yyn
+2026-09-18 19:10:24,130 | INFO | chewtoy.attachment.migration | Webhook warmup starting for 53 parent channel(s) (delay=1.00s)
+2026-09-18 19:10:42,477 | INFO | chewtoy.attachment.migration | Webhook warmup done: created 0, reused 53, failed 0, elapsed 18346 ms
+2026-09-18 19:10:43,014 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos🪓🪓' -> 'hawkins-videos🪓🪓' (1531390847235522682) (+0 msgs, total: 0)
+2026-09-18 19:10:43,106 | INFO | chewtoy.attachment.migration | Resumed 'daily-reflections❓' -> 'daily-reflections❓' (1531390909554495558) (+0 msgs, total: 0)
+2026-09-18 19:10:43,120 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes🪓🪓' -> 'hawkins-quotes🪓🪓' (1531390879691182281) (+0 msgs, total: 0)
+2026-09-18 19:10:43,346 | INFO | chewtoy.attachment.migration | Resumed 'hawkins🪓🪓' -> 'hawkins🪓🪓' (1531390827623092315) (+0 msgs, total: 0)
+2026-09-18 19:10:43,532 | INFO | chewtoy.attachment.migration | Resumed 'calibrations🗿' -> 'calibrations🗿' (1531390968174088252) (+0 msgs, total: 0)
+2026-09-18 19:10:43,558 | INFO | chewtoy.attachment.migration | Resumed 'calibration-discussions🗿' -> 'calibration-discussions🗿' (1531391015502614599) (+0 msgs, total: 0)
+2026-09-18 19:10:43,603 | INFO | chewtoy.attachment.migration | Resumed 'personal-calibrations🪓' -> 'personal-calibrations🪓' (1531391028555415724) (+0 msgs, total: 0)
+2026-09-18 19:10:43,967 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-archive🗿' -> 'hawkins-archive🗿' (1531391117428391957) (+0 msgs, total: 0)
+2026-09-18 19:10:43,993 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos-2🗿' -> 'hawkins-videos-2🗿' (1531391130212503845) (+0 msgs, total: 0)
+2026-09-18 19:10:44,020 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes-2🗿' -> 'hawkins-quotes-2🗿' (1531391143378555110) (+0 msgs, total: 0)
+2026-09-18 19:10:44,069 | INFO | chewtoy.attachment.migration | Resumed 'barret-of-slides❓' -> 'barret-of-slides❓' (1531391156418777128) (+0 msgs, total: 0)
+2026-09-18 19:10:44,527 | INFO | chewtoy.attachment.migration | Resumed 'library❓' -> 'library❓' (1531391192892440746) (+0 msgs, total: 0)
+2026-09-18 19:10:44,624 | INFO | chewtoy.attachment.migration | Resumed 'hawkins' -> 'hawkins' (1531395333752488026) (+0 msgs, total: 0)
+2026-09-18 19:10:44,665 | INFO | chewtoy.attachment.migration | Resumed 'the-spiritual-essentials🗿' -> 'the-spiritual-essentials🗿' (1531391179898228898) (+0 msgs, total: 0)
+2026-09-18 19:10:45,232 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-videos' -> 'hawkins-videos' (1531395385577181235) (+0 msgs, total: 0)
+2026-09-18 19:10:45,243 | INFO | chewtoy.attachment.migration | Resumed 'doc-bot🗿' -> 'doc-bot🗿' (1531391168808485076) (+0 msgs, total: 0)
+2026-09-18 19:10:45,333 | INFO | chewtoy.attachment.migration | Resumed 'daily-reflections❓' -> 'daily-reflections❓' (1531396516697079828) (+0 msgs, total: 0)
+2026-09-18 19:10:45,685 | INFO | chewtoy.attachment.migration | Resumed 'hawkins-quotes' -> 'hawkins-quotes' (1531395441902616616) (+0 msgs, total: 0)
+2026-09-18 19:10:45,792 | INFO | chewtoy.attachment.migration | Resumed 'calibrations' -> 'calibrations' (1531395487452762192) (+0 msgs, total: 0)
+2026-09-18 19:10:45,849 | INFO | chewtoy.attachment.migration | Resumed 'barret-of-slides❓' -> 'barret-of-slides❓' (1531396492949196981) (+0 msgs, total: 0)
+2026-09-18 19:10:45,852 | INFO | chewtoy.attachment.migration | Resumed 'calibration-discussions' -> 'calibration-discussions' (1531395520805994657) (+0 msgs, total: 0)
+2026-09-18 19:10:46,096 | INFO | chewtoy.attachment.migration | Resumed 'general' -> 'general' (1508770219097591890) (+0 msgs, total: 0)
+2026-09-18 19:10:46,136 | INFO | chewtoy.attachment.migration | Resumed 'doc-bot' -> 'doc-bot' (1531395748539662546) (+0 msgs, total: 0)
+2026-09-18 19:10:46,423 | INFO | chewtoy.attachment.migration | Resumed 'to-do-masterlist' -> 'to-do-masterlist' (1529837755155353630) (+0 msgs, total: 0)
+2026-09-18 19:10:46,502 | INFO | chewtoy.attachment.migration | Resumed 'library❓' -> 'library❓' (1531556472004149298) (+0 msgs, total: 0)
+2026-09-18 19:10:46,706 | INFO | chewtoy.attachment.migration | Resumed 'memes' -> 'memes' (1525433374376722473) (+0 msgs, total: 0)
+2026-09-18 19:10:46,773 | INFO | chewtoy.attachment.migration | Resumed '「✦welcome✦」' -> '「✦welcome✦」' (1489236972269604974) (+0 msgs, total: 0)
+2026-09-18 19:10:46,823 | INFO | chewtoy.attachment.migration | Resumed 'the-spiritual-essentials' -> 'the-spiritual-essentials' (1531395770031411405) (+0 msgs, total: 0)
+2026-09-18 19:10:46,994 | INFO | chewtoy.attachment.migration | Resumed 'ᓚᘏᗢ°cattos' -> 'ᓚᘏᗢ°cattos' (1500262075421687859) (+0 msgs, total: 0)
+2026-09-18 19:10:47,114 | INFO | chewtoy.attachment.migration | Resumed 'lakshay' -> 'lakshay' (1500784790801223710) (+0 msgs, total: 0)
+2026-09-18 19:10:47,464 | INFO | chewtoy.attachment.migration | Resumed '1-minute' -> '1-minute' (1548436226489720872) (+0 msgs, total: 0)
+2026-09-18 19:10:47,619 | INFO | chewtoy.attachment.migration | Resumed 'lakshay-worry-channel' -> 'lakshay-worry-channel' (1542048353154502706) (+0 msgs, total: 0)
+2026-09-18 19:10:47,893 | INFO | chewtoy.attachment.migration | Resumed 'kaj' -> 'kaj' (1504508719625535509) (+0 msgs, total: 0)
+2026-09-18 19:10:47,952 | INFO | chewtoy.attachment.migration | Resumed 'raul' -> 'raul' (1491461551511703684) (+0 msgs, total: 0)
+2026-09-18 19:10:48,207 | INFO | chewtoy.attachment.migration | Resumed 'crveni' -> 'crveni' (1505955190564585602) (+0 msgs, total: 0)
+2026-09-18 19:10:48,241 | INFO | chewtoy.attachment.migration | Resumed 'barret' -> 'barret' (1539410919656919120) (+0 msgs, total: 0)
+2026-09-18 19:10:48,472 | INFO | chewtoy.attachment.migration | Resumed 'the-hand' -> 'the-hand' (1531716159995510944) (+0 msgs, total: 0)
+2026-09-18 19:10:48,504 | INFO | chewtoy.attachment.migration | Resumed 'yumetorium' -> 'yumetorium' (1547906046964535297) (+0 msgs, total: 0)
+2026-09-18 19:10:48,532 | INFO | chewtoy.attachment.migration | Resumed 'geo' -> 'geo' (1506612771176054804) (+1 msgs, total: 1)
+2026-09-18 19:10:48,714 | INFO | chewtoy.attachment.migration | Resumed 'lou' -> 'lou' (1505513374912348180) (+0 msgs, total: 1)
+2026-09-18 19:10:48,801 | INFO | chewtoy.attachment.migration | Resumed 'info' -> 'info' (1542820070860787783) (+0 msgs, total: 1)
+2026-09-18 19:10:49,054 | INFO | chewtoy.attachment.migration | Resumed 'ᯓ★suggestions' -> 'ᯓ★suggestions' (1499396736274403411) (+0 msgs, total: 1)
+2026-09-18 19:10:49,373 | INFO | chewtoy.attachment.migration | Resumed '𑣲⋆collection' -> '𑣲⋆collection' (1491160489898807307) (+0 msgs, total: 1)
+2026-09-18 19:10:49,378 | INFO | chewtoy.attachment.migration | Resumed 'vannablooms' -> 'vannablooms' (1497893722933952745) (+0 msgs, total: 1)
+2026-09-18 19:10:49,618 | INFO | chewtoy.attachment.migration | Resumed '˚˖𓍢ִ໋❀°gratitude' -> '˚˖𓍢ִ໋❀°gratitude' (1499705777848586360) (+0 msgs, total: 1)
+2026-09-18 19:10:49,655 | INFO | chewtoy.attachment.migration | Resumed '𖡊°lightbulb' -> '𖡊°lightbulb' (1502622464104988752) (+0 msgs, total: 1)
+2026-09-18 19:10:49,891 | INFO | chewtoy.attachment.migration | Resumed 'server' -> 'server' (1515298169599168593) (+0 msgs, total: 1)
+2026-09-18 19:10:50,143 | INFO | chewtoy.attachment.migration | Resumed 'server-archive' -> 'server-archive' (1515376780666736660) (+0 msgs, total: 1)
+2026-09-18 19:10:50,146 | INFO | chewtoy.attachment.migration | Resumed '📖align' -> '📖align' (1528050373477007421) (+0 msgs, total: 1)
+2026-09-18 19:10:50,426 | INFO | chewtoy.attachment.migration | Resumed 'blisstext' -> 'blisstext' (1526646831101120512) (+0 msgs, total: 1)
+2026-09-18 19:10:50,826 | INFO | chewtoy.attachment.migration | Resumed 'Yyn' -> 'Yyn' (1520492803367632918) (+0 msgs, total: 1)
+2026-09-18 19:10:51,118 | INFO | chewtoy.attachment.migration | Resumed 'Talk to God' -> 'Talk to God' (1520493321963835443) (+0 msgs, total: 1)
+2026-09-18 19:10:51,377 | INFO | chewtoy.attachment.migration | Resumed 'Emoji's!' -> 'Emoji's!' (1525064106611183766) (+0 msgs, total: 1)
+2026-09-18 19:10:52,519 | INFO | chewtoy.attachment.migration | Resumed 'Anything goes' -> 'Anything goes' (1543834385235709963) (+0 msgs, total: 1)
+2026-09-18 19:10:52,746 | INFO | chewtoy.attachment.migration | Resumed 'I'll do it here' -> 'I'll do it here' (1544030228991443064) (+0 msgs, total: 1)
+2026-09-18 19:10:53,053 | INFO | chewtoy.attachment.migration | Resumed 'Ok I can do it here' -> 'Ok I can do it here' (1544030432352542791) (+0 msgs, total: 1)
+2026-09-18 19:10:53,264 | INFO | chewtoy.attachment.migration | Resumed 'DND channel contemplation' -> 'DND channel contemplation' (1528064370687479969) (+0 msgs, total: 1)
+2026-09-18 19:10:53,623 | INFO | chewtoy.attachment.migration | Resumed '𑣲⋆collection' -> '𑣲⋆collection' (1516027390004953220) (+0 msgs, total: 1)
+2026-09-18 19:10:53,959 | INFO | chewtoy.attachment.migration | Resumed '𖡊°lightbulb' -> '𖡊°lightbulb' (1516027536239497236) (+0 msgs, total: 1)
+2026-09-18 19:10:54,690 | INFO | chewtoy.attachment.migration | Resumed 'Todo list' -> 'Todo list' (1524424715790450739) (+0 msgs, total: 1)
+2026-09-18 19:10:54,950 | INFO | chewtoy.attachment.migration | Resumed 'Jesus AI' -> 'Jesus AI' (1541497721393909840) (+0 msgs, total: 1)
+2026-09-18 19:10:55,417 | INFO | chewtoy.attachment.migration | Resumed 'test' -> 'test' (1516701715704053831) (+0 msgs, total: 1)
+2026-09-18 19:10:55,883 | INFO | chewtoy.attachment.migration | Resumed 'monke' -> 'monke' (1525433451346530334) (+0 msgs, total: 1)
+2026-09-18 19:10:56,159 | INFO | chewtoy.attachment.migration | Resumed 'classics' -> 'classics' (1525438107254653039) (+0 msgs, total: 1)
+2026-09-18 19:10:56,406 | INFO | chewtoy.attachment.migration | Resumed 'xingxing' -> 'xingxing' (1525434299107770458) (+0 msgs, total: 1)
+2026-09-18 19:10:56,703 | INFO | chewtoy.attachment.migration | Resumed 'rando' -> 'rando' (1525434544176631829) (+0 msgs, total: 1)
+2026-09-18 19:10:56,951 | INFO | chewtoy.attachment.migration | Resumed 'bill' -> 'bill' (1525433973264748644) (+0 msgs, total: 1)
+2026-09-18 19:10:57,216 | INFO | chewtoy.attachment.migration | Resumed 'spiritual practice  thread' -> 'spiritual practice  thread' (1535600704306155552) (+0 msgs, total: 1)
+2026-09-18 19:10:57,470 | INFO | chewtoy.attachment.migration | Resumed 'Jesus Christ' -> 'Jesus Christ' (1534492183816568913) (+0 msgs, total: 1)
+2026-09-18 19:10:57,969 | INFO | chewtoy.attachment.migration | Resumed 'Spiritual practice thread' -> 'Spiritual practice thread' (1534131543285563452) (+0 msgs, total: 1)
+2026-09-18 19:10:58,205 | INFO | chewtoy.attachment.migration | Resumed 'spiritual practice  thread' -> 'spiritual practice  thread' (1531578103023927356) (+0 msgs, total: 1)
+2026-09-18 19:10:58,465 | INFO | chewtoy.attachment.migration | Resumed 'spam links to share with yall' -> 'spam links to share with yall' (1531062303317823681) (+0 msgs, total: 1)
+2026-09-18 19:11:00,460 | INFO | chewtoy.attachment.migration | Resumed 'test' -> 'test' (1528348275009392670) (+10 msgs, total: 11)
+2026-09-18 19:11:01,057 | INFO | chewtoy.attachment.migration | Resumed 'Pretend to have no memory' -> 'Pretend to have no memory' (1539387838338965585) (+0 msgs, total: 11)
+2026-09-18 19:11:01,536 | INFO | chewtoy.attachment.migration | Resumed 'Oommmmm' -> 'Oommmmm' (1520493466310676633) (+0 msgs, total: 11)
+2026-09-18 19:11:01,806 | INFO | chewtoy.attachment.migration | Resumed 'Vent' -> 'Vent' (1536084602354008124) (+0 msgs, total: 11)
+2026-09-18 19:11:02,057 | INFO | chewtoy.attachment.migration | Resumed 'God I ask for the knowledge of thy will' -> 'God I ask for the knowledge of thy will' (1533554020420026490) (+0 msgs, total: 11)
+2026-09-18 19:11:02,303 | INFO | chewtoy.attachment.migration | Resumed 'What for?' -> 'What for?' (1525032664330141776) (+0 msgs, total: 11)
+2026-09-18 19:11:02,787 | INFO | chewtoy.attachment.migration | Resumed 'Express / release farts and poo of' -> 'Express / release farts and poo of' (1534255149407535216) (+0 msgs, total: 11)
+2026-09-18 19:11:03,023 | INFO | chewtoy.attachment.migration | Resumed 'Forgiveness robocop' -> 'Forgiveness robocop' (1534257650013966408) (+0 msgs, total: 11)
+2026-09-18 19:11:03,400 | INFO | chewtoy.attachment.migration | Resumed 'Allow Ego to speak' -> 'Allow Ego to speak' (1527417846819459244) (+0 msgs, total: 11)
+2026-09-18 19:11:03,693 | INFO | chewtoy.attachment.migration | Resumed 'Goal : 90% of mother of all torrents by' -> 'Goal : 90% of mother of all torrents by' (1529933263387365427) (+0 msgs, total: 11)
+2026-09-18 19:11:03,984 | INFO | chewtoy.attachment.migration | Resumed 'acim' -> 'acim' (1527072885238136852) (+0 msgs, total: 11)
+2026-09-18 19:11:04,710 | INFO | chewtoy.attachment.migration | Resumed 'What is held in mind tends to manifest' -> 'What is held in mind tends to manifest' (1520506039039164668) (+0 msgs, total: 11)
+2026-09-18 19:11:05,012 | INFO | chewtoy.attachment.migration | Resumed 'Chanting' -> 'Chanting' (1520512616022282462) (+0 msgs, total: 11)
+2026-09-18 19:11:31,486 | INFO | chewtoy.attachment.migration | Resumed 'Contemplating' -> 'Contemplating' (1520492685113299006) (+15 msgs, total: 26)
+2026-09-18 19:11:36,800 | INFO | chewtoy.attachment.migration | Resumed 'In the Background of silence' -> 'In the Background of silence' (1521212655199584457) (+3 msgs, total: 29)
+2026-09-18 19:11:49,599 | INFO | chewtoy.attachment.migration | Resumed 'Prayers' -> 'Prayers' (1520505908680196147) (+9 msgs, total: 38)
+2026-09-18 19:11:58,297 | INFO | chewtoy.attachment.migration | Resumed 'Gratitude' -> 'Gratitude' (1520632178558500905) (+5 msgs, total: 43)
+2026-09-18 19:12:00,185 | INFO | chewtoy.attachment.migration | Resumed 'hawkins tv / hawkins radio' -> 'hawkins tv / hawkins radio' (1527594599709933660) (+1 msgs, total: 44)
+2026-09-18 19:12:05,073 | INFO | chewtoy.attachment.migration | Resumed 'modlog' -> 'modlog' (1506200235280437258) (+54 msgs, total: 98)
+2026-09-18 19:12:09,525 | INFO | chewtoy.attachment.migration | Resumed '12 steps' -> '12 steps' (1527424365073797190) (+6 msgs, total: 104)
+2026-09-18 19:12:10,710 | INFO | chewtoy.attachment.migration | Resumed 'map of consciousness' -> 'map of consciousness' (1520524447663128657) (+3 msgs, total: 107)
+2026-09-18 19:12:12,644 | INFO | chewtoy.attachment.migration | Resumed 'Between now and now there is no problem' -> 'Between now and now there is no problem' (1520498555792523306) (+1 msgs, total: 108)
+2026-09-18 19:12:14,224 | INFO | chewtoy.attachment.migration | Resumed 'Presence of God , Truth' -> 'Presence of God , Truth' (1520491868696215724) (+3 msgs, total: 111)
+2026-09-18 19:12:16,152 | INFO | chewtoy.attachment.migration | Resumed 'forgiveness' -> 'forgiveness' (1520501603059372105) (+2 msgs, total: 113)
+2026-09-18 19:12:18,342 | INFO | chewtoy.attachment.migration | Resumed 'the Seeing of the beauty  of everything' -> 'the Seeing of the beauty  of everything' (1526190079452905493) (+1 msgs, total: 114)
+2026-09-18 19:12:20,518 | INFO | chewtoy.attachment.migration | Resumed 'susan , docflock , archive org , google' -> 'susan , docflock , archive org , google' (1527033563751383212) (+4 msgs, total: 118)
+2026-09-18 19:12:21,529 | INFO | chewtoy.attachment.migration | Resumed 'Identify with the field' -> 'Identify with the field' (1526176142862585921) (+2 msgs, total: 120)
+2026-09-18 19:12:33,666 | INFO | chewtoy.attachment.migration | Resumed 'decline the negative' -> 'decline the negative' (1520682913803534416) (+8 msgs, total: 128)
+2026-09-18 19:12:46,758 | INFO | chewtoy.attachment.migration | Resumed 'Focus on now' -> 'Focus on now' (1520498382286880840) (+2 msgs, total: 130)
+2026-09-18 19:12:57,707 | INFO | chewtoy.attachment.migration | Resumed 'Important passages' -> 'Important passages' (1524439374450917397) (+7 msgs, total: 137)
+2026-09-18 19:13:03,462 | INFO | chewtoy.attachment.migration | Resumed 'Pretend one has no memory' -> 'Pretend one has no memory' (1525298247206178816) (+3 msgs, total: 140)
+2026-09-18 19:13:03,958 | INFO | chewtoy.attachment.migration | Resumed 'More more more Drama' -> 'More more more Drama' (1520498204234350707) (+0 msgs, total: 140)
+2026-09-18 19:13:04,545 | INFO | chewtoy.attachment.migration | Resumed 'Anger toilet 💩  🚽' -> 'Anger toilet 💩  🚽' (1535819269294657687) (+0 msgs, total: 140)
+2026-09-18 19:13:06,392 | INFO | chewtoy.attachment.migration | Resumed 'Meditation' -> 'Meditation' (1524933657951997962) (+1 msgs, total: 141)
+2026-09-18 19:13:08,499 | INFO | chewtoy.attachment.migration | Resumed 'Contemplating Death of the body' -> 'Contemplating Death of the body' (1524871455366578369) (+1 msgs, total: 142)
+2026-09-18 19:13:11,335 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:13,089 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:13:16,904 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:13:19,049 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:13:23,134 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:25,113 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:13:25,822 | INFO | chewtoy.attachment.migration | Resumed 'All in one' -> 'All in one' (1520493559374024809) (+10 msgs, total: 152)
+2026-09-18 19:13:26,976 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:13:27,883 | INFO | chewtoy.attachment.migration | Resumed 'Let ego speak spiritual practice' -> 'Let ego speak spiritual practice' (1535342066228265060) (+1 msgs, total: 153)
+2026-09-18 19:13:28,966 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:13:30,694 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.58 seconds.
+2026-09-18 19:13:31,412 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:33,058 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:13:34,893 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:13:35,041 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:37,290 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:41,205 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:43,383 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:45,342 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:47,163 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:13:47,910 | INFO | chewtoy.attachment.migration | Resumed 'abc is abc' -> 'abc is abc' (1520524780506316940) (+46 msgs, total: 199)
+2026-09-18 19:13:50,827 | INFO | chewtoy.attachment.migration | Resumed 'No pronouns!' -> 'No pronouns!' (1520517760847839354) (+4 msgs, total: 203)
+2026-09-18 19:13:50,861 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.56 seconds.
+2026-09-18 19:13:51,111 | INFO | chewtoy.attachment.migration | Resumed 'letting go of guilt and 4h trip like doc' -> 'letting go of guilt and 4h trip like doc' (1522933987167961140) (+1 msgs, total: 204)
+2026-09-18 19:13:51,586 | INFO | chewtoy.attachment.migration | Resumed 'There is no other,  the Self is the only' -> 'There is no other,  the Self is the only' (1520500110281277573) (+0 msgs, total: 204)
+2026-09-18 19:13:52,965 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:13:53,407 | INFO | chewtoy.attachment.migration | Resumed 'Thread' -> 'Thread' (1522884494254669884) (+1 msgs, total: 205)
+2026-09-18 19:13:54,001 | INFO | chewtoy.attachment.migration | Resumed 'Gratitude practice' -> 'Gratitude practice' (1506458785429061764) (+0 msgs, total: 205)
+2026-09-18 19:13:54,631 | INFO | chewtoy.attachment.migration | Resumed 'Nuke-thread' -> 'Nuke-thread' (1506157512456671295) (+0 msgs, total: 205)
+2026-09-18 19:13:54,960 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:13:57,029 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:13:58,913 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:14:01,032 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:14:03,041 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:14:05,062 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:14:06,022 | INFO | chewtoy.attachment.migration | Resumed 'Ask More more more - Healing  context' -> 'Ask More more more - Healing  context' (1520500983615193191) (+10 msgs, total: 215)
+2026-09-18 19:14:06,342 | INFO | chewtoy.attachment.migration | Resumed 'Progress update :' -> 'Progress update :' (1536046024362168320) (+8 msgs, total: 223)
+2026-09-18 19:14:07,149 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:08,886 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:14:09,117 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:10,457 | INFO | chewtoy.attachment.migration | Resumed 'Veritas' -> 'Veritas' (1528070301328609422) (+2 msgs, total: 225)
+2026-09-18 19:14:10,720 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:14:11,000 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'docsheet' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:11,151 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:12,231 | INFO | chewtoy.attachment.migration | Resumed 'Rules' -> 'Rules' (1528111607207432254) (+4 msgs, total: 229)
+2026-09-18 19:14:12,926 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:14:12,939 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:14:12,961 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'Fake Chan Factory' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:14,268 | INFO | chewtoy.attachment.migration | Resumed 'docsheet' -> 'docsheet' (1536156316949684295) (+2 msgs, total: 231)
+2026-09-18 19:14:14,877 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:14:14,920 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:14:15,165 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'scoreboard' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:16,870 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:14:17,059 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:14:17,105 | INFO | chewtoy.attachment.migration | Resumed 'scoreboard' -> 'scoreboard' (1535969040122642472) (+1 msgs, total: 232)
+2026-09-18 19:14:17,600 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'secondbarnone' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:18,862 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:14:18,900 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:14:20,179 | INFO | chewtoy.attachment.migration | Resumed 'Fake Chan Factory' -> 'Fake Chan Factory' (1536132836090716280) (+5 msgs, total: 237)
+2026-09-18 19:14:20,695 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'Voretech' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:20,895 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:14:20,896 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:14:22,694 | INFO | chewtoy.attachment.migration | Resumed 'Voretech' -> 'Voretech' (1532870798640025600) (+1 msgs, total: 238)
+2026-09-18 19:14:22,910 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:14:23,031 | INFO | chewtoy.attachment.migration | Resumed 'secondbarnone' -> 'secondbarnone' (1531952602982518854) (+3 msgs, total: 241)
+2026-09-18 19:14:23,156 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:23,286 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'Godot game' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:23,593 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'book-bot' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:24,947 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:14:26,918 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:14:26,921 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:14:28,206 | INFO | chewtoy.attachment.migration | Resumed 'Godot game' -> 'Godot game' (1529899812290429070) (+2 msgs, total: 243)
+2026-09-18 19:14:28,492 | INFO | chewtoy.attachment.migration | Resumed 'book-bot' -> 'book-bot' (1529899940992647349) (+2 msgs, total: 245)
+2026-09-18 19:14:29,069 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'gaming' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:29,150 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:29,408 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'minimize list' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:30,770 | INFO | chewtoy.attachment.migration | Resumed 'gaming' -> 'gaming' (1527955976639090769) (+1 msgs, total: 246)
+2026-09-18 19:14:30,994 | INFO | chewtoy.attachment.migration | Resumed 'minimize list' -> 'minimize list' (1527955872485998662) (+1 msgs, total: 247)
+2026-09-18 19:14:31,152 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:31,558 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'lesezeichen' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:31,646 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for '☼ᨒ•practice-suggestions' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:32,929 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:14:33,035 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:33,318 | INFO | chewtoy.attachment.migration | Resumed 'lesezeichen' -> 'lesezeichen' (1527956055739465768) (+1 msgs, total: 248)
+2026-09-18 19:14:33,934 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'ᯓ★suggestions' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:34,444 | INFO | chewtoy.attachment.migration | Resumed 'ᯓ★suggestions' -> 'ᯓ★suggestions' (1516026987775398009) (+0 msgs, total: 248)
+2026-09-18 19:14:34,862 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:14:34,984 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:14:35,006 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for '˚˖𓍢ִ໋❀°gratitude' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:35,377 | INFO | chewtoy.attachment.migration | Resumed '˚˖𓍢ִ໋❀°gratitude' -> '˚˖𓍢ִ໋❀°gratitude' (1516028018894573648) (+0 msgs, total: 248)
+2026-09-18 19:14:36,097 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'laptop burning' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:36,855 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:14:36,898 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:14:38,830 | INFO | chewtoy.attachment.migration | Resumed 'laptop burning' -> 'laptop burning' (1535707502497235054) (+2 msgs, total: 250)
+2026-09-18 19:14:39,137 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:14:39,426 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'High prio test' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:40,697 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.58 seconds.
+2026-09-18 19:14:41,024 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:14:42,822 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:14:42,984 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:14:44,802 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:14:45,110 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:14:46,854 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:14:46,909 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:14:48,739 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:14:48,913 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:14:50,934 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:14:51,022 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:52,609 | INFO | chewtoy.attachment.migration | Resumed 'High prio test' -> 'High prio test' (1535707021314228334) (+10 msgs, total: 260)
+2026-09-18 19:14:53,136 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:53,345 | WARNING | chewtoy.attachment.migration | Auto-sync found no match for 'play wordle today' within the last 500 source messages; re-migrating the channel from the start (may duplicate messages).
+2026-09-18 19:14:54,973 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:14:55,021 | INFO | chewtoy.attachment.migration | Resumed 'play wordle today' -> 'play wordle today' (1535707662254084126) (+1 msgs, total: 261)
+2026-09-18 19:14:57,128 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:14:58,954 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:14:58,955 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:15:01,085 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:15:03,044 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:15:05,128 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:15:07,043 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:15:07,061 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:08,938 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:15:10,652 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.62 seconds.
+2026-09-18 19:15:11,012 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:15:12,298 | INFO | chewtoy.attachment.migration | Resumed '☼ᨒ•practice-suggestions' -> '☼ᨒ•practice-suggestions' (1516027835574390855) (+23 msgs, total: 284)
+2026-09-18 19:15:13,104 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:14,844 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.58 seconds.
+2026-09-18 19:15:17,015 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:17,047 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:15:18,884 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:15:19,001 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:15:20,848 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:15:21,004 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:15:25,297 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:27,291 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:29,282 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:30,954 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:15:31,069 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:15:32,935 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:15:34,614 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.65 seconds.
+2026-09-18 19:15:34,962 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:15:36,782 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:15:36,952 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:15:38,742 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:15:38,972 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:15:40,908 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:15:41,257 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:43,020 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:15:43,021 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:15:44,882 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:15:45,070 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:15:46,763 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:15:47,191 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:48,810 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:15:50,678 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.74 seconds.
+2026-09-18 19:15:50,929 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:15:53,322 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:55,079 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:55,103 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:15:56,974 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:15:58,735 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:15:59,160 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:00,782 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:16:01,018 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:16:02,818 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:16:03,503 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:05,030 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:06,879 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:16:06,911 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:16:08,734 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:16:09,329 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:11,301 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:13,112 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:16:15,252 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:16:18,863 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:16:19,005 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:16:20,858 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:16:21,054 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:16:22,762 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:16:23,040 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:16:24,718 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:16:25,270 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:26,832 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:16:27,149 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:28,778 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:16:28,942 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:16:30,907 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:16:30,935 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:16:32,941 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:16:33,224 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:16:35,459 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:36,927 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:16:37,241 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:39,003 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:16:39,084 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:41,241 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:41,423 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:43,251 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:44,860 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:16:46,744 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.69 seconds.
+2026-09-18 19:16:46,878 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:16:48,781 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:16:48,929 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:16:50,804 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:16:50,929 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:16:52,996 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:16:53,097 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:54,933 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:16:55,088 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:16:56,890 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:16:57,047 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:16:58,918 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:17:00,895 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:17:03,079 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:17:03,454 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:17:04,944 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:17:06,801 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:17:07,010 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:17:08,873 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:17:08,947 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:17:10,841 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:17:12,835 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:17:14,820 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:17:15,203 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:17,399 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:19,261 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:20,794 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:17:21,033 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:17:23,070 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:17:23,178 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:17:30,998 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:17:32,750 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:17:32,964 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:17:34,809 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:17:34,989 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:17:36,853 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:17:36,965 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:17:38,875 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:17:38,905 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:17:41,070 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:17:41,075 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:42,897 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:17:42,902 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:17:44,993 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:17:45,244 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:47,080 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:17:47,463 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:49,205 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:49,298 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:51,110 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:17:51,113 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:17:52,931 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:17:53,057 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.37 seconds.
+2026-09-18 19:17:54,762 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:17:54,891 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:17:56,735 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:17:56,872 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:17:58,828 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:17:59,040 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:18:00,804 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:18:00,913 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:18:02,778 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:18:02,903 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:18:04,793 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:18:04,974 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:18:07,033 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:18:07,049 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:08,819 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:18:08,930 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:18:10,742 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:18:10,881 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:18:13,082 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:18:14,759 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:18:14,898 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:18:16,970 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:18:16,981 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:18:18,842 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:18:18,935 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:18:21,030 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:18:21,239 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:22,933 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:18:22,999 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:24,842 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:18:25,019 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:18:27,097 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:18:28,614 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.66 seconds.
+2026-09-18 19:18:28,940 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:18:30,900 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:18:31,110 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:18:32,855 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.41 seconds.
+2026-09-18 19:18:34,767 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:18:36,820 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:18:38,751 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:18:42,594 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.68 seconds.
+2026-09-18 19:18:44,699 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.57 seconds.
+2026-09-18 19:18:45,128 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:47,105 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:47,332 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:49,230 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:49,321 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:51,005 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:51,231 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:18:52,807 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:18:53,097 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.33 seconds.
+2026-09-18 19:18:54,911 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:18:56,956 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:18:58,760 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:18:59,137 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:00,964 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:19:03,036 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:19:05,155 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:06,724 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.71 seconds.
+2026-09-18 19:19:06,988 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:08,880 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:09,207 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:11,119 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:12,956 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:19:13,063 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:19:14,822 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:15,000 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:19:16,802 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:16,971 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:19:18,770 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:19:19,151 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:20,801 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:19:21,035 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.40 seconds.
+2026-09-18 19:19:22,715 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:19:23,007 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:19:24,815 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:24,929 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:19:26,758 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:19:26,850 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.58 seconds.
+2026-09-18 19:19:28,812 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:19:28,935 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.49 seconds.
+2026-09-18 19:19:30,893 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:19:31,200 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:34,768 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:19:34,783 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.65 seconds.
+2026-09-18 19:19:37,063 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:37,127 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:38,832 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:19:39,192 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:40,798 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:40,999 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:19:42,965 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:19:43,044 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:44,998 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:19:45,192 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:46,914 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:19:47,095 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:48,850 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:19:48,882 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:19:50,755 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:19:50,914 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:19:52,752 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.52 seconds.
+2026-09-18 19:19:54,740 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:19:56,802 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:19:57,167 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:19:58,985 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:20:00,887 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:20:02,851 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.58 seconds.
+2026-09-18 19:20:03,078 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:04,843 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.42 seconds.
+2026-09-18 19:20:04,899 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:20:06,891 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:20:06,915 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:20:08,838 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:20:09,225 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:10,746 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:20:12,766 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:20:13,286 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:14,727 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:20:16,793 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.63 seconds.
+2026-09-18 19:20:16,992 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:23,063 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.36 seconds.
+2026-09-18 19:20:24,767 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:20:25,352 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:26,993 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:27,150 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:29,047 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:20:31,033 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:20:33,115 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:20:34,942 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:20:36,647 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.63 seconds.
+2026-09-18 19:20:37,513 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:39,290 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:40,897 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:20:41,374 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:42,848 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.43 seconds.
+2026-09-18 19:20:43,150 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:45,004 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:45,125 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:46,976 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:20:47,051 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:48,907 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:20:49,145 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:50,976 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:51,279 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:20:52,796 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:20:53,127 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.32 seconds.
+2026-09-18 19:20:54,796 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:20:56,742 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:20:56,854 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.57 seconds.
+2026-09-18 19:20:58,827 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.44 seconds.
+2026-09-18 19:20:59,107 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:21:00,712 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.56 seconds.
+2026-09-18 19:21:00,945 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:21:02,977 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:21:03,012 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:04,812 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:21:04,947 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:21:06,913 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:21:07,079 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:08,831 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:21:09,162 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:10,962 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:21:12,728 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.56 seconds.
+2026-09-18 19:21:12,951 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.51 seconds.
+2026-09-18 19:21:14,816 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.45 seconds.
+2026-09-18 19:21:15,004 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:21:16,972 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.38 seconds.
+2026-09-18 19:21:17,183 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.34 seconds.
+2026-09-18 19:21:18,951 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.35 seconds.
+2026-09-18 19:21:19,396 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:21,102 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:22,816 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.61 seconds.
+2026-09-18 19:21:22,876 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:21:25,060 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:21:25,325 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:27,217 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:27,330 | WARNING | discord.webhook.async_ | Webhook ID 1550552575299035166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:29,039 | INFO | chewtoy.attachment.migration | Resumed 'spiritual practice  thread' -> 'spiritual practice  thread' (1530140824531243129) (+344 msgs, total: 628)
+2026-09-18 19:21:29,056 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:31,115 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:33,020 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:34,798 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.48 seconds.
+2026-09-18 19:21:36,733 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.54 seconds.
+2026-09-18 19:21:38,742 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:21:40,873 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.39 seconds.
+2026-09-18 19:21:42,718 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.55 seconds.
+2026-09-18 19:21:44,828 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.46 seconds.
+2026-09-18 19:21:46,766 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.50 seconds.
+2026-09-18 19:21:48,718 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.56 seconds.
+2026-09-18 19:21:50,813 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.47 seconds.
+2026-09-18 19:21:52,750 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.53 seconds.
+2026-09-18 19:21:54,955 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.31 seconds.
+2026-09-18 19:21:57,233 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:21:59,036 | WARNING | discord.webhook.async_ | Webhook ID 1550552663240876166 is rate limited. Retrying in 0.30 seconds.
+2026-09-18 19:22:00,967 | INFO | chewtoy.attachment.migration | User cancel: keeping 0 webhook(s) created this run — the next run reuses them
+2026-09-18 19:22:00,968 | INFO | chewtoy.attachment | Cancelled resumemigrate operation: guild 1489236876736069662, channel None, source None, target 1550463181602947113, scanned 0, cursor None.
 
-it repeats every minute for another hour and more
