@@ -208,4 +208,4 @@
 2026-09-18 14:57:25,395 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463733845987400/webhooks responded with 429. Retrying in 70.04 seconds.
 2026-09-18 14:58:37,944 | WARNING | discord.http | We are being rate limited. POST https://discord.com/api/v10/channels/1550463737906073701/webhooks responded with 429. Retrying in 69.48 seconds.
 
-
+it repeats every minute for another hour and more
