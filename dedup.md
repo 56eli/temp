@@ -15,9 +15,6 @@ Drei Orte zu den Themen ROSSMANN, Selphy und der Cloud-Dienst:
 `D:\$RECYCLE.BIN` — Umfang 26,83 GB · `E:\$RECYCLE.BIN` — Umfang 10,94 GB
 Alles hier sind bereits gelöschte Dateien; 9,9 GB davon existieren zusätzlich als Zwilling woanders. Beim Leeren bleibt überall anders je eine Kopie stehen.
 
-So geht es:
-
-1. Beide Ordner öffnen, einen Blick hineinwerfen (auch zum Abschied nehmen).
 
 ### 2. Die sieben Handy-Ereignis-Ordner
 
