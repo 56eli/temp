@@ -2,17 +2,13 @@
 
 ### 0. Special
 
-Die drei obersten Orte zu den Themen ROSSMANN, Selphy und der Cloud-Dienst — sie tauchen im Dokument an ihren Nummern wieder auf:
+Drei Orte zu den Themen ROSSMANN, Selphy und der Cloud-Dienst:
 
 `D:\BACKUP große Platte (F)\Fotos ab 2020\2024\9. Mallorca 14.5.-22.5.2024\ROSSMANN` — Umfang 2,20 GB (die Abzüge der Mallorca-Bilder; ROSSMANN-App-Bildschirmfotos liegen zusätzlich in der SD-Karte 2023, nur in Dateinamen)
 
 `E:\BACKUP lahme Platte (D)\Selphy Drucker USB` — Umfang 11,87 GB
 
 `D:\OneDrive Backup 2026 Februar` — Umfang 143,08 GB, 30.424 Dateien
-
-So geht es:
-
-1. Diese drei Orte sind im Folgenden an ihren Nummern wiederzufinden.
 
 ### 1. Die zwei Papierkörbe leeren
 
