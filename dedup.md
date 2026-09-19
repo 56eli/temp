@@ -18,7 +18,6 @@ Alles hier sind bereits gelöschte Dateien; 9,9 GB davon existieren zusätzlich 
 So geht es:
 
 1. Beide Ordner öffnen, einen Blick hineinwerfen (auch zum Abschied nehmen).
-2. Rechtsklick → Papierkorb leeren. Fertig.
 
 ### 2. Die sieben Handy-Ereignis-Ordner
 
