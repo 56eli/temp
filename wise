@@ -1,0 +1,80 @@
+Let me check the current details on how Wise handles incoming SEPA transfers.Here's the simple version of how SEPA works for your group:
+
+---
+
+## How SEPA Bank Transfers Work (For EU Senders)
+
+### What is SEPA?
+SEPA aims to make cross-border Euro transfers within this area equivalent to a domestic transfer within your own country. SEPA is made up of the Eurozone, countries within the EU and a few other countries which also support Euro bank transfers.
+
+In plain terms: sending EUR from a German bank to a Belgian IBAN costs the same as sending EUR from your German bank to another German bank — which is almost always **free**.
+
+---
+
+### The Setup (Step by Step)
+
+**Your friend in NZ does this once:**
+1. Opens a **Wise account** (he's the only one who needs one).
+2. Opens a **EUR balance** inside Wise.
+3. Once he has his EUR account details, he'll have his own account details where he can receive euros. This isn't a bank account, but he can receive money in the same way by sharing his IBAN with friends, family, clients or companies, so that they can send him money.
+4. Wise has an entity in Belgium, so they use a Belgian BIC code and a Wise address in Belgium for some of their European currency accounts. So his IBAN will look like a Belgian one (starts with **BE**).
+5. He shares this IBAN + his name with all of you.
+
+**Each EU sender does this every month:**
+1. Opens their normal banking app (Sparkasse, DKB, ING, N26, whatever).
+2. Adds the friend's Wise **IBAN** (the Belgian one) as a recipient.
+3. Sends a normal **SEPA transfer** of €10 (or whatever amount).
+4. Done. No app to download. No ID to upload. No account to create.
+
+---
+
+### What It Costs
+
+**On your (sender) side:**
+- If you're sending money from a bank based in the SEPA zone (e.g. UK, France, Switzerland), sending money to one of Wise's Euro accounts shouldn't cost any more than a regular, local transfer. In the majority of cases, this means it's free.
+- Your German bank sees a Belgian IBAN and treats it as a normal eurozone transfer. **€0 fee.**
+
+**On your friend's (receiver) side:**
+- It's free to send and receive money from one Wise currency to another, as long as they're the same currency.
+- When receiving money to your Wise account, it's free to receive domestic payments in all currencies. SEPA counts as "domestic" for EUR.
+- Add money to Wise Account via bank transfer for free when the currency stays the same.
+
+**So the flow looks like:**
+
+| Step | Who | Action | Fee |
+|---|---|---|---|
+| 1 | You (Germany) | SEPA transfer €10 → friend's Wise BE IBAN | **€0** |
+| 2 | Friend (NZ) | Receives €10 in Wise EUR balance | **€0** |
+| 3 | Friend (NZ) | Converts EUR → NZD inside Wise | **~0.5%** (~€0.05) |
+| 4 | Friend (NZ) | Spends via Wise card or withdraws to NZ bank | **Free** (card) or small fixed fee (bank) |
+
+---
+
+### Why This Is the Best Option for Your Group
+
+- **EU senders need ZERO apps, ZERO accounts, ZERO ID uploads.** They just do a bank transfer like paying rent.
+- **Only the friend in NZ needs a Wise account.** He's the one who uploaded his ID once.
+- Standard SEPA transfers are completed within one to two working days. SEPA Instant Credit Transfers can be completed within five seconds.
+- The **only** fee in the entire chain is the ~0.5% conversion (EUR→NZD) that your friend pays when he decides to convert. On €10 that's about **5 cents**.
+
+---
+
+### What About Non-EU Senders?
+
+This is where it gets slightly more complicated. SEPA only works for people with bank accounts in the SEPA zone. For senders outside the EU:
+
+- They could send via **SWIFT** to the same Wise EUR IBAN, but there is a fee to receive international (Swift) payments in most currencies. Receiving EUR Swift payments has a fixed fee per payment of 2.39 EUR.
+- **Better option:** Non-EU senders open their own Wise account and send Wise-to-Wise (same currency, free). But then they need to upload ID too.
+
+---
+
+### TL;DR
+
+| | EU Senders | Non-EU Senders |
+|---|---|---|
+| **What they need** | Just a bank account | A Wise account (requires ID) |
+| **How they send** | Normal SEPA transfer to a BE IBAN | Wise-to-Wise EUR transfer |
+| **Their cost** | **€0** | **€0** |
+| **Friend's conversion cost** | ~0.5% when converting EUR→NZD | Same |
+
+**For you specifically:** Open your Sparkasse/DKB/ING app, paste the Belgian IBAN your friend gives you, send €10. That's it. No Wise. No Revolut. No selfie. No ID photo.
