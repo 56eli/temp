@@ -1,0 +1,17 @@
+bridge-devcage v7 — provenance (written 2026-10-26T11:12Z)
+source repo:   56eli/botrunner
+PR:            243 (open, draft at seat time)
+branch:        agent/bridge-devcage-2026-10-25
+commit:        09859c13e53aa44e015f0b870549434178c43ccd
+                "split answers at Discord 2000 instead of failing them", 2026-10-26T00:11:05Z
+fetched:       2026-10-26T11:02Z, codeload tarball of that branch
+taken as-is:   bridge.js adapter.js state.js package.json package-lock.json tests/bridge.test.js
+               services/bridge-contract/CONTRACT.md  -> contract/CONTRACT.md
+local deltas (NOT upstream, this box's own edits after the 11:04Z seat):
+  bot.js       + path import; takeLock()/liveLoopHolding() writing `writer-lock-refused`;
+               @everyone (role id == guild id) filtered out of the merged role_ids
+  reply.js     `--force` only as a trailing flag; heartbeat liveness check before queueing (exit 4)
+  supervise.sh cd/node guards; a refusal (rc=2) backs off 30s instead of a 2s hot loop
+  run.sh       new file: start waits for the old session, stop reports "not running",
+               status reports session + heartbeat age
+  config.json  br1 values (operator pinned, channel #bot-test, pane =spac)

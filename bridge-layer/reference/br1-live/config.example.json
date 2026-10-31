@@ -1,0 +1,14 @@
+{
+  "operator_id": "847445853584883712",
+  "bot_id": "REPLACE_BOT_ID",
+  "role_ids": ["REPLACE_BOT_ROLE_ID"],
+  "guild_id": "1489236876736069662",
+  "channel_id": "1561512381480181860",
+  "pane": "seat",
+  "peers": [],
+  "token_file": "/home/dev/.config/bridge/bot.token",
+  "notice_key": "/etc/spacebridge/notice.key",
+  "state_dir": "/home/dev/.local/state/bridge",
+  "log": "/home/dev/.local/state/bridge/events.jsonl",
+  "answers": "/home/dev/.local/state/bridge/answers.jsonl"
+}
